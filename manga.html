@@ -1,0 +1,2365 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>боевые искусства манга</title>
+<meta name="description" content="Манга боевые искусства" />
+<meta name="keywords" content="тэг, боевые искусства, манга" />
+<meta name="robots" content="all" />
+<script type="text/javascript" src="/engine/classes/js/jquery.js"></script>
+<script type="text/javascript" src="/engine/classes/js/dialog.js"></script>
+<script type="text/javascript" src="/engine/classes/js/effects.js"></script>
+<script type="text/javascript" src="/engine/classes/js/menu.js"></script>
+<script type="text/javascript" src="/engine/classes/js/dle_ajax.js"></script>
+<script type="text/javascript" src="/engine/classes/js/js_edit.js"></script>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="/templates/mangachan/css/engine4.css" />
+<script language="javascript" type="text/javascript">
+<!--
+function bookmarkthis(title,url) {
+  if (window.sidebar) { // Firefox
+     window.sidebar.addPanel(title, url, "");
+  } else if (document.all) { // IE
+     window.external.AddFavorite(url, title);
+  } else if (window.opera && window.print) { // Opera
+     var elem = document.createElement('a');
+     elem.setAttribute('href',url);
+     elem.setAttribute('title',title);
+     elem.setAttribute('rel','sidebar');
+     elem.click();
+  }
+}
+//-->
+</script>
+
+<script>
+/*
+    if(!~document.location.href.indexOf('/manga' + 'chan.me')) {
+        document.location.href = 'http://manga' + 'chan.me' + window.location.pathname;
+        window.location = 'http://manga' + 'chan.me' + window.location.pathname;
+    }
+*/
+</script>
+
+<script type="text/javascript" src="/templates/mangachan/js/base.js"></script>
+
+
+	<link rel="stylesheet" type="text/css" href="/templates/mangachan/css/style.css" />	
+
+</head>
+
+
+
+
+
+
+	<body id="wrap">
+	<div id="loading-layer" style="display:none"><div id="loading-layer-text">Загрузка. Пожалуйста, подождите...</div></div>
+<script language="javascript" type="text/javascript">
+<!--
+var dle_root       = '/';
+var dle_admin      = '';
+var dle_login_hash = '';
+var dle_group      = 5;
+var dle_skin       = 'mangachan';
+var dle_wysiwyg    = 'no';
+var quick_wysiwyg  = '0';
+var dle_act_lang   = ["Да", "Нет", "Ввод", "Отмена"];
+var menu_short     = 'Быстрое редактирование';
+var menu_full      = 'Полное редактирование';
+var menu_profile   = 'Просмотр профиля';
+var menu_send      = 'Отправить сообщение';
+var menu_uedit     = 'Админцентр';
+var dle_info       = 'Информация';
+var dle_confirm    = 'Подтверждение';
+var dle_prompt     = 'Ввод информации';
+var dle_req_field  = 'Заполните все необходимые поля';
+var dle_del_agree  = 'Вы действительно хотите удалить? Данное действие невозможно будет отменить';
+var dle_del_news   = 'Удалить новость';
+var allow_dle_delete_news   = false;
+var dle_search_delay   = false;
+var dle_search_value   = '';
+$(function(){
+	FastSearch();
+});//-->
+</script>
+	
+
+<style>
+    .news_wrap img {
+        max-width: 100%;
+    }
+</style>
+
+<script type="text/javascript" src="/templates/mangachan/js/hover.js"></script>
+
+<div id="top">
+	<div id="top_user">
+						   <div style='margin-top:-1px;'>
+               <form method="post" action=''>
+               	 <input name="login" type="hidden" id="login" value="submit" />
+	 			 <input name="login_name" type="text" class="a_field" style="width:70px;height:12px;" placeholder="Логин" />
+  				 <input name="login_password" type="password" class="a_field" style="width:70px;height:12px;" placeholder="Пароль" onclick="this.value='';" />
+				<input onclick="submit();" name="image" type="submit" style="border:0px solid red;" value="Вход" />
+				 <a class="bordr" href="https://manga-chan.me/index.php?do=lostpassword" title="Забыли пароль?">?</a>
+				 <a href="https://manga-chan.me/index.php?do=register">Быстрая регистрация</a>
+               </form>
+               </div>
+		</div>
+	<div id="top_site">
+		<a href="/contact" title="Связатся с администрацией Манга-тян!">Контакты</a>
+	</div>
+	<div id="top_search" style="width:324px;">
+            <form method="get" action='/' id="search" style="width:324px;">
+                <input type="hidden" name="do" value="search" />
+                <input type="hidden" name="subaction" value="search" />
+       			<input id='story' name='story' type='text' class='query' style="width:302px;" placeholder='Ищем мангу, серию, автора...' />
+            </form>
+	</div>
+	<div id="top_rss" style="width:29px;">
+		<img alt="Submit Search" id="search_button" onclick="javascript:getElementById('search').submit();" onmouseover="javascript:this.style.background='#6396be';" onmouseout="javascript:this.style.background='#0086bb';" src="/templates/mangachan/images/search.gif" />
+	</div>
+</div>
+
+<div><a href="/" ><img src="/templates/mangachan/images/header3.jpg" /></a></div>
+<!--<div id="top_banner"><a href="/" ><img src="/templates/mangachan/images/header3.jpg" /></a></div>-->
+
+<div id="navigator">
+	<ul class="main_set">
+		<li class="r_border">
+			<div class="cir"><img src='/templates/mangachan/images/white_cir.png' /></div><a href="/" >Главная</a>
+		</li>
+		<li class="r_border">
+			<div class="with_arrow">
+			<div class="cir"><img src='/templates/mangachan/images/white_cir.png' /></div><a href="/catalog" id="manga_link" title="манга бесплатно">Каталог Манги</a><a href="" class="global_menu_arrow" onclick="return optional_drop_down_menu(this, ge('manga_link'), ge('manga_drop'), event);">&nbsp;&nbsp;&nbsp;</a>
+			</div>
+			<div id="manga_drop" class="navigator_menu" style="display: none">
+				<ul>
+					<li><a href="/manga/new">Новинки!</a></li>
+					<li class="menu_divider">&nbsp;</li>
+					<li><a href="/catalog" ><b>по...</b> алфавиту</a></li>
+					<li><a href="/mangaka/"><b>по...</b> авторам</a></li>
+					<li><a href="/translation/"><b>по...</b> переводчикам</a></li>
+					<li><a href="/sortch"><b>по...</b> кол-ву глав</a></li>
+					<li><a href="/mostfavorites" title="Самая популярная манга"><b>по...</b> популярности</a></li>
+					<li class="menu_divider">&nbsp;</li>
+					<li><a href="/manga/random" title="случайная манга">Случайная манга</a></li>
+				</ul>
+			</div>
+		</li>
+		<li class="r_border">
+			<div class="cir"><img src='/templates/mangachan/images/white_cir.png' /></div><a href="/manga/random">Случайная манга</a>
+		</li>
+		<li class="r_border">
+			<div class="with_arrow">
+			<div class="cir"><img src='/templates/mangachan/images/white_cir.png' /></div><a rel='nofollow' TARGET='_blank' href="https://anime-chan.me/" id="forums_link">Аниме-тян</a>
+			</div>
+		</li>
+		<li class="r_border">
+			<div class="with_arrow">
+			<div class="cir"><img src='/templates/mangachan/images/white_cir.png' /></div><a rel='nofollow' TARGET='_blank'  href="http://yaoi-chan.me/" id="forums_link">Яой манга</a>
+			</div>
+		</li>
+		<li class="r_border">
+			<div class="with_arrow">
+			<div class="cir"><img src='/templates/mangachan/images/white_cir.png' /></div><a rel='nofollow' TARGET='_blank'  href="http://y.hchan.live/" id="forums_link">Хентай манга</a>
+			</div>
+		</li>
+		<li class="r_border">
+			<div class="with_arrow"  style='margin-right:-5px;'>
+			<div class="cir"><img src='/templates/mangachan/images/white_cir.png' /></div><a rel='nofollow' href="/faq" id="forums_link">FAQ</a>
+			</div>
+		</li>
+	</ul>
+</div>
+
+<div class="main_fon">
+
+
+
+
+<ul id="top_left" style="width:515px;">
+				<li>
+					<a href='/catalog' title='Каталог манги'>Каталог манги</a>
+				</li> &#187;
+				<li>
+					<a href='/tags/боевые_искусства' title='Тэги: боевые_искусства'>Тэги: боевые_искусства</a>
+				</li>
+</ul>
+<ul id="top_right">
+	<div id="sort_by" style="font-size:15px;"><a rel='nofollow' href='боевые_искусства&n=dateasc' style="text-decoration:none;"><img src='/templates/mangachan/images/sort2.gif' title='Сортировка по дате' /> Дата</a>&nbsp;&nbsp;<a rel='nofollow' href='боевые_искусства&n=favdesc' style="text-decoration:none;">&nbsp;&nbsp; Популярность</a>&nbsp;&nbsp;<a rel='nofollow' href='боевые_искусства&n=abcasc' style="text-decoration:none;">&nbsp;&nbsp; Имя</a>&nbsp;&nbsp;<a rel='nofollow' href='боевые_искусства&n=chdesc' style="text-decoration:none;">&nbsp;&nbsp; Главы</a></div>
+	<div id="sort_container"></div>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<div id="content" style="overflow:hidden;">
+
+        
+        
+			<link rel="stylesheet" type="text/css" href="/templates/mangachan/css/category.css" />
+			<div class="content_row" title="The King of Fighters: R's Letter">
+	<div class="manga_images" style="margin-right:-60px;">
+    	<a href="/manga/152390-the-king-of-fighters-rs-letter.html"><img src="https://imgcover.manga-chan.me/showfull_retina/uploads/posts/2022-10/thumbs/1666047459_momnslofy4if_250x350.jpg" style="display: inline;" /></a>
+        <div style="font-size:12px;margin-left:17px;margin-top:6px;">
+        	Плюсиков: <font style="color:green;"><b>3</b></font> <span id="ratig-layer-152390" style="float:left;"><a rel="nofollow" style="text-decoration:none;" href="#" class="fav_plus" onclick="dleRate('6', '152390'); return false;" title="Эта манга мне понравилась!"><img src="/templates/mangachan/images/plusplus.png" style="width:13px;height:13px;" /></a>&nbsp;</span>
+        </div>
+	</div>
+	<div class="manga_row1">
+        <div style="background-color:#f2f4f6;padding-left:5px;margin-left:-5px;padding-top:5px;padding-bottom:8px;margin-right:-22px;margin-top:-1px;">
+            <div style="float:right;font-size:14px;margin-left:5px;margin-top:3px;margin-right:10px;"><a href="/type/Манхва" style="color:#006ffa;" rel="nofollow" title="Выбрать только Манхва">Манхва</a></div>
+	        <h2><a href="/manga/152390-the-king-of-fighters-rs-letter.html" title="The King of Fighters: R's Letter" class="title_link">The King of Fighters: R's Letter (Король бойцов)</a></h2>
+        </div>
+	</div>
+	<div class="manga_row2">
+		<div class="item">Автор</div>
+		<div class="row3_left">
+			<div class="item2">
+				<h3 class="item2">﻿<a href='/mangaka/152389/' title='Park Jun Ho манга'>Park Jun Ho</a><a href='/mangaka/' title=' манга'></a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Статус (томов)</div>
+		<div class="row3_left">
+			<div class="item2" style="font-size:14px;">
+            	1 том, выпуск продолжается <span style="margin-left:20px;"><b>4 главы, <font style='color:red;'>перевод заморожен</font></b></span>
+			</div>
+		</div>
+		<div class="row3_right">
+			
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Тэги</div>
+		<div class="row3_left">
+			<div class="item4">
+            	<div class="genre"><a href='/tags/cёнэн'>cёнэн</a>, <a href='/tags/боевик'>боевик</a>, <a href='/tags/боевые_искусства'>боевые_искусства</a>, <a href='/tags/в_цвете'>в_цвете</a>, <a href='/tags/веб'>веб</a>, <a href='/tags/жестокость'>жестокость</a>, <a href='/tags/комедия'>комедия</a>, <a href='/tags/научная_фантастика'>научная_фантастика</a>, <a href='/tags/приключения'>приключения</a>, <a href='/tags/сверхъестественное'>сверхъестественное</a>, <a href='/tags/сёнэн'>сёнэн</a>, <a href='/tags/фэнтези'>фэнтези</a>, <a href='/tags/фантастика'>фантастика</a></div>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Переводчики</div>
+		<div class="row3_left">
+			<div class="item2">
+            	<h3 class="item2">﻿<a href='/translation/144116/' title='Дети космоса '>Дети космоса</a><a href='/translation/' title=' '></a></h3>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row4">
+		<div class="row4_left">
+            <div style="font-size:15px;">
+							<div class="user_link_short" id="ratig-layer-folow-152390" >
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '7','152390','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> <b>Отслеживать</b> новое</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '17','152390','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> Не <b>отслеживать</b></a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-read-152390">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '8','152390','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Хочу прочитать!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '18','152390','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Не хочу прочитать</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-wanted-152390">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '9','152390','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Прочитано!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '19','152390','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Не прочитано!</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-fav-152390">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '10','152390','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Добавить в коллекцию</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '110','152390','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Удалить из коллекции</a>
+                 </span>
+            </div>               
+            </div>
+		</div>
+	</div>
+	<div class="line_break"></div>
+	<div class="tags">    	
+		Кё Кусанаги — дерзкий старшеклассник, который является наследником клана Кусанаги, одного из трех кланов, запечатавших в древние времена легендарную змеиную сущность, Орочи. Он не любит учиться, по пятам за ним всюду следуют побед...
+    </div>
+</div>	<div class="content_row" title="Tenkaichi: Battle to Decide Japan's Strongest Martial Artist">
+	<div class="manga_images" style="margin-right:-60px;">
+    	<a href="/manga/151331-tenkaichi-battle-to-decide-japans-strongest-martial-artist.html"><img src="https://imgcover.manga-chan.me/showfull_retina/uploads/posts/2022-09/thumbs/1664391838_g3hdlhakag96_250x350.jpg" style="display: inline;" /></a>
+        <div style="font-size:12px;margin-left:17px;margin-top:6px;">
+        	Плюсиков: <font style="color:green;"><b>3</b></font> <span id="ratig-layer-151331" style="float:left;"><a rel="nofollow" style="text-decoration:none;" href="#" class="fav_plus" onclick="dleRate('6', '151331'); return false;" title="Эта манга мне понравилась!"><img src="/templates/mangachan/images/plusplus.png" style="width:13px;height:13px;" /></a>&nbsp;</span>
+        </div>
+	</div>
+	<div class="manga_row1">
+        <div style="background-color:#f2f4f6;padding-left:5px;margin-left:-5px;padding-top:5px;padding-bottom:8px;margin-right:-22px;margin-top:-1px;">
+            <div style="float:right;font-size:14px;margin-left:5px;margin-top:3px;margin-right:10px;"><a href="/type/Манга" style="color:#006ffa;" rel="nofollow" title="Выбрать только Манга">Манга</a></div>
+	        <h2><a href="/manga/151331-tenkaichi-battle-to-decide-japans-strongest-martial-artist.html" title="Tenkaichi: Battle to Decide Japan's Strongest Martial Artist" class="title_link">Tenkaichi: Battle to Decide Japan's Strongest Martial Artist (Тенкаичи: турнир сильнейших мастеров боевых искусств Японии)</a></h2>
+        </div>
+	</div>
+	<div class="manga_row2">
+		<div class="item">Автор</div>
+		<div class="row3_left">
+			<div class="item2">
+				<h3 class="item2">﻿<a href='/mangaka/3767/' title='Nakamaru Yousuke манга'>Nakamaru Yousuke</a>, <a href='/mangaka/139913/' title='AZUMA Kyoutarou манга'>AZUMA Kyoutarou</a><a href='/mangaka/' title=' манга'></a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Статус (томов)</div>
+		<div class="row3_left">
+			<div class="item2" style="font-size:14px;">
+            	5 томов, выпуск продолжается <span style="margin-left:20px;"><b>21 глав</b>, перевод продолжается</span>
+			</div>
+		</div>
+		<div class="row3_right">
+			
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Тэги</div>
+		<div class="row3_left">
+			<div class="item4">
+            	<div class="genre"><a href='/tags/боевик'>боевик</a>, <a href='/tags/боевые_искусства'>боевые_искусства</a>, <a href='/tags/драма'>драма</a>, <a href='/tags/история'>история</a>, <a href='/tags/приключения'>приключения</a>, <a href='/tags/самурайский_боевик'>самурайский_боевик</a>, <a href='/tags/сэйнэн'>сэйнэн</a></div>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Переводчики</div>
+		<div class="row3_left">
+			<div class="item2">
+            	<h3 class="item2">﻿<a href='/translation/143149/' title='Werdna '>Werdna</a><a href='/translation/' title=' '></a></h3>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row4">
+		<div class="row4_left">
+            <div style="font-size:15px;">
+							<div class="user_link_short" id="ratig-layer-folow-151331" >
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '7','151331','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> <b>Отслеживать</b> новое</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '17','151331','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> Не <b>отслеживать</b></a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-read-151331">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '8','151331','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Хочу прочитать!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '18','151331','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Не хочу прочитать</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-wanted-151331">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '9','151331','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Прочитано!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '19','151331','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Не прочитано!</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-fav-151331">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '10','151331','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Добавить в коллекцию</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '110','151331','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Удалить из коллекции</a>
+                 </span>
+            </div>               
+            </div>
+		</div>
+	</div>
+	<div class="line_break"></div>
+	<div class="tags">    	
+		1600 год. 10 лет прошло с тех пор, как Ода Нобунага объединил Японию. Но он стареет, и чувствует, что смерть вскоре настигнет его. Но ему неинтересно отдать страну в наследство ни своему собственному сыну, ни кому-либо из родствен...
+    </div>
+</div>	<div class="content_row" title="The guardians of Niwen">
+	<div class="manga_images" style="margin-right:-60px;">
+    	<a href="/manga/151088-the-guardians-of-niwen.html"><img src="https://imgcover.manga-chan.me/showfull_retina/uploads/posts/2022-09/thumbs/1664050531_page-0.jpg" style="display: inline;" /></a>
+        <div style="font-size:12px;margin-left:17px;margin-top:6px;">
+        	Плюсиков: <font style="color:green;"><b>4</b></font> <span id="ratig-layer-151088" style="float:left;"><a rel="nofollow" style="text-decoration:none;" href="#" class="fav_plus" onclick="dleRate('6', '151088'); return false;" title="Эта манга мне понравилась!"><img src="/templates/mangachan/images/plusplus.png" style="width:13px;height:13px;" /></a>&nbsp;</span>
+        </div>
+	</div>
+	<div class="manga_row1">
+        <div style="background-color:#f2f4f6;padding-left:5px;margin-left:-5px;padding-top:5px;padding-bottom:8px;margin-right:-22px;margin-top:-1px;">
+            <div style="float:right;font-size:14px;margin-left:5px;margin-top:3px;margin-right:10px;"><a href="/type/Комикс" style="color:#006ffa;" rel="nofollow" title="Выбрать только Комикс">Комикс</a></div>
+	        <h2><a href="/manga/151088-the-guardians-of-niwen.html" title="The guardians of Niwen" class="title_link">The guardians of Niwen (Стражники Нивена)</a></h2>
+        </div>
+	</div>
+	<div class="manga_row2">
+		<div class="item">Автор</div>
+		<div class="row3_left">
+			<div class="item2">
+				<h3 class="item2">﻿<a href='/mangaka/146973/' title='Saran Kit манга'>Saran Kit</a><a href='/mangaka/' title=' манга'></a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Статус (томов)</div>
+		<div class="row3_left">
+			<div class="item2" style="font-size:14px;">
+            	Сингл <span style="margin-left:20px;"><b>1 глава</b>, <font style='color:green;'>перевод завершен</font></span>
+			</div>
+		</div>
+		<div class="row3_right">
+			
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Тэги</div>
+		<div class="row3_left">
+			<div class="item4">
+            	<div class="genre"><a href='/tags/арт'>арт</a>, <a href='/tags/боевик'>боевик</a>, <a href='/tags/боевые_искусства'>боевые_искусства</a>, <a href='/tags/веб'>веб</a>, <a href='/tags/додзинси'>додзинси</a>, <a href='/tags/животные'>животные</a>, <a href='/tags/магия'>магия</a>, <a href='/tags/приключения'>приключения</a>, <a href='/tags/фэнтези'>фэнтези</a></div>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Переводчики</div>
+		<div class="row3_left">
+			<div class="item2">
+            	<h3 class="item2">﻿<a href='/translation/145479/' title='андердожье логово '>андердожье логово</a><a href='/translation/' title=' '></a></h3>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row4">
+		<div class="row4_left">
+            <div style="font-size:15px;">
+							<div class="user_link_short" id="ratig-layer-folow-151088" >
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '7','151088','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> <b>Отслеживать</b> новое</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '17','151088','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> Не <b>отслеживать</b></a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-read-151088">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '8','151088','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Хочу прочитать!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '18','151088','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Не хочу прочитать</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-wanted-151088">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '9','151088','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Прочитано!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '19','151088','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Не прочитано!</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-fav-151088">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '10','151088','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Добавить в коллекцию</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '110','151088','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Удалить из коллекции</a>
+                 </span>
+            </div>               
+            </div>
+		</div>
+	</div>
+	<div class="line_break"></div>
+	<div class="tags">    	
+		Маленький милый комикс по Ori and the Blind Forest
+    </div>
+</div>	<div class="content_row" title="Genius of the Unique Lineage">
+	<div class="manga_images" style="margin-right:-60px;">
+    	<a href="/manga/148997-genius-of-the-unique-lineage.html"><img src="https://imgcover.manga-chan.me/showfull_retina/uploads/posts/2022-08/thumbs/1659628262_read-manhwa-193x278.jpg" style="display: inline;" /></a>
+        <div style="font-size:12px;margin-left:17px;margin-top:6px;">
+        	Плюсиков: <font style="color:green;"><b>6</b></font> <span id="ratig-layer-148997" style="float:left;"><a rel="nofollow" style="text-decoration:none;" href="#" class="fav_plus" onclick="dleRate('6', '148997'); return false;" title="Эта манга мне понравилась!"><img src="/templates/mangachan/images/plusplus.png" style="width:13px;height:13px;" /></a>&nbsp;</span>
+        </div>
+	</div>
+	<div class="manga_row1">
+        <div style="background-color:#f2f4f6;padding-left:5px;margin-left:-5px;padding-top:5px;padding-bottom:8px;margin-right:-22px;margin-top:-1px;">
+            <div style="float:right;font-size:14px;margin-left:5px;margin-top:3px;margin-right:10px;"><a href="/type/Манхва" style="color:#006ffa;" rel="nofollow" title="Выбрать только Манхва">Манхва</a></div>
+	        <h2><a href="/manga/148997-genius-of-the-unique-lineage.html" title="Genius of the Unique Lineage" class="title_link">Genius of the Unique Lineage (Гений Уникальной линии)</a></h2>
+        </div>
+	</div>
+	<div class="manga_row2">
+		<div class="item">Автор</div>
+		<div class="row3_left">
+			<div class="item2">
+				<h3 class="item2">﻿<a href='/mangaka/148996/' title='JC Studio манга'>JC Studio</a><a href='/mangaka/' title=' манга'></a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Статус (томов)</div>
+		<div class="row3_left">
+			<div class="item2" style="font-size:14px;">
+            	1 том, выпуск продолжается <span style="margin-left:20px;"><b>Нет глав</b></span>
+			</div>
+		</div>
+		<div class="row3_right">
+			
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Тэги</div>
+		<div class="row3_left">
+			<div class="item4">
+            	<div class="genre"><a href='/tags/cёнэн'>cёнэн</a>, <a href='/tags/боевик'>боевик</a>, <a href='/tags/боевые_искусства'>боевые_искусства</a>, <a href='/tags/в_цвете'>в_цвете</a>, <a href='/tags/веб'>веб</a>, <a href='/tags/демоны'>демоны</a>, <a href='/tags/магия'>магия</a>, <a href='/tags/фантастика'>фантастика</a></div>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Переводчики</div>
+		<div class="row3_left">
+			<div class="item2">
+            	<h3 class="item2">﻿<a href='/translation/147412/' title='Trident '>Trident</a><a href='/translation/' title=' '></a></h3>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row4">
+		<div class="row4_left">
+            <div style="font-size:15px;">
+							<div class="user_link_short" id="ratig-layer-folow-148997" >
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '7','148997','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> <b>Отслеживать</b> новое</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '17','148997','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> Не <b>отслеживать</b></a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-read-148997">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '8','148997','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Хочу прочитать!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '18','148997','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Не хочу прочитать</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-wanted-148997">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '9','148997','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Прочитано!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '19','148997','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Не прочитано!</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-fav-148997">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '10','148997','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Добавить в коллекцию</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '110','148997','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Удалить из коллекции</a>
+                 </span>
+            </div>               
+            </div>
+		</div>
+	</div>
+	<div class="line_break"></div>
+	<div class="tags">    	
+		Я хочу быть тем, кто убивает захватчиков.Я хочу убивать захватчиков и жить счастливой повседневной жизнью в особом мире.Разве я не могу желать подобного?Почему? Почему я не могу этого сделать?Люди говорят, что, гоняясь за двумя ра...
+    </div>
+</div>	<div class="content_row" title="I Will Seduce the Northern Duke">
+	<div class="manga_images" style="margin-right:-60px;">
+    	<a href="/manga/148377-i-will-seduce-the-northern-duke.html"><img src="https://imgcover.manga-chan.me/showfull_retina/uploads/posts/2022-07/thumbs/1658523806_nmovy4n6lqyx_250x350.jpg" style="display: inline;" /></a>
+        <div style="font-size:12px;margin-left:17px;margin-top:6px;">
+        	Плюсиков: <font style="color:green;"><b>4</b></font> <span id="ratig-layer-148377" style="float:left;"><a rel="nofollow" style="text-decoration:none;" href="#" class="fav_plus" onclick="dleRate('6', '148377'); return false;" title="Эта манга мне понравилась!"><img src="/templates/mangachan/images/plusplus.png" style="width:13px;height:13px;" /></a>&nbsp;</span>
+        </div>
+	</div>
+	<div class="manga_row1">
+        <div style="background-color:#f2f4f6;padding-left:5px;margin-left:-5px;padding-top:5px;padding-bottom:8px;margin-right:-22px;margin-top:-1px;">
+            <div style="float:right;font-size:14px;margin-left:5px;margin-top:3px;margin-right:10px;"><a href="/type/Манхва" style="color:#006ffa;" rel="nofollow" title="Выбрать только Манхва">Манхва</a></div>
+	        <h2><a href="/manga/148377-i-will-seduce-the-northern-duke.html" title="I Will Seduce the Northern Duke" class="title_link">I Will Seduce the Northern Duke (Я соблазню северного герцога)</a></h2>
+        </div>
+	</div>
+	<div class="manga_row2">
+		<div class="item">Автор</div>
+		<div class="row3_left">
+			<div class="item2">
+				<h3 class="item2">﻿<a href='/mangaka/148376/' title='Joo Siha манга'>Joo Siha</a><a href='/mangaka/' title=' манга'></a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Статус (томов)</div>
+		<div class="row3_left">
+			<div class="item2" style="font-size:14px;">
+            	1 том, выпуск продолжается <span style="margin-left:20px;"><b>Нет глав</b></span>
+			</div>
+		</div>
+		<div class="row3_right">
+			
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Тэги</div>
+		<div class="row3_left">
+			<div class="item4">
+            	<div class="genre"><a href='/tags/романтика'>романтика</a>, <a href='/tags/сёдзё'>сёдзё</a>, <a href='/tags/драма'>драма</a>, <a href='/tags/исекай'>исекай</a>, <a href='/tags/боевые_искусства'>боевые_искусства</a>, <a href='/tags/фэнтези'>фэнтези</a>, <a href='/tags/магия'>магия</a>, <a href='/tags/комедия'>комедия</a></div>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Переводчики</div>
+		<div class="row3_left">
+			<div class="item2">
+            	<h3 class="item2">﻿<a href='/translation/146770/' title='Keris '>Keris</a><a href='/translation/' title=' '></a></h3>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row4">
+		<div class="row4_left">
+            <div style="font-size:15px;">
+							<div class="user_link_short" id="ratig-layer-folow-148377" >
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '7','148377','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> <b>Отслеживать</b> новое</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '17','148377','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> Не <b>отслеживать</b></a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-read-148377">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '8','148377','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Хочу прочитать!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '18','148377','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Не хочу прочитать</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-wanted-148377">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '9','148377','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Прочитано!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '19','148377','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Не прочитано!</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-fav-148377">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '10','148377','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Добавить в коллекцию</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '110','148377','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Удалить из коллекции</a>
+                 </span>
+            </div>               
+            </div>
+		</div>
+	</div>
+	<div class="line_break"></div>
+	<div class="tags">    	
+		– Притворись моей любовницей и войди в светское общество.Селена, главная звезда, привлекла внимание всего мира, но во время несчастного случая во время съёмок оказалась на землях Северного Герцога. Калсион, который спас её от демо...
+    </div>
+</div>	<div class="content_row" title="Rakudai Kishi no Eiyuutan">
+	<div class="manga_images" style="margin-right:-60px;">
+    	<a href="/manga/147482-rakudai-kishi-no-eiyuutan.html"><img src="https://imgcover.manga-chan.me/showfull_retina/uploads/posts/2022-06/thumbs/1656369726_jggufbcp4j8x_250x350.jpg" style="display: inline;" /></a>
+        <div style="font-size:12px;margin-left:17px;margin-top:6px;">
+        	Плюсиков: <font style="color:green;"><b>7</b></font> <span id="ratig-layer-147482" style="float:left;"><a rel="nofollow" style="text-decoration:none;" href="#" class="fav_plus" onclick="dleRate('6', '147482'); return false;" title="Эта манга мне понравилась!"><img src="/templates/mangachan/images/plusplus.png" style="width:13px;height:13px;" /></a>&nbsp;</span>
+        </div>
+	</div>
+	<div class="manga_row1">
+        <div style="background-color:#f2f4f6;padding-left:5px;margin-left:-5px;padding-top:5px;padding-bottom:8px;margin-right:-22px;margin-top:-1px;">
+            <div style="float:right;font-size:14px;margin-left:5px;margin-top:3px;margin-right:10px;"><a href="/type/Новелла" style="color:#006ffa;" rel="nofollow" title="Выбрать только Новелла">Новелла</a></div>
+	        <h2><a href="/manga/147482-rakudai-kishi-no-eiyuutan.html" title="Rakudai Kishi no Eiyuutan" class="title_link">Rakudai Kishi no Eiyuutan (Сага о бездарном рыцаре)</a></h2>
+        </div>
+	</div>
+	<div class="manga_row2">
+		<div class="item">Автор</div>
+		<div class="row3_left">
+			<div class="item2">
+				<h3 class="item2">﻿<a href='/mangaka/30825/' title='MISORA Riku манга'>MISORA Riku</a>, <a href='/mangaka/147478/' title='Won манга'>Won</a><a href='/mangaka/' title=' манга'></a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Статус (томов)</div>
+		<div class="row3_left">
+			<div class="item2" style="font-size:14px;">
+            	19 томов, выпуск продолжается <span style="margin-left:20px;"><b>611 глав</b>, перевод продолжается</span>
+			</div>
+		</div>
+		<div class="row3_right">
+			
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Тэги</div>
+		<div class="row3_left">
+			<div class="item4">
+            	<div class="genre"><a href='/tags/18_плюс'>18_плюс</a>, <a href='/tags/боевик'>боевик</a>, <a href='/tags/боевые_искусства'>боевые_искусства</a>, <a href='/tags/гарем'>гарем</a>, <a href='/tags/драма'>драма</a>, <a href='/tags/комедия'>комедия</a>, <a href='/tags/магия'>магия</a>, <a href='/tags/романтика'>романтика</a>, <a href='/tags/сверхъестественное'>сверхъестественное</a>, <a href='/tags/сёнэн'>сёнэн</a>, <a href='/tags/фантастика'>фантастика</a>, <a href='/tags/фэнтези'>фэнтези</a>, <a href='/tags/школа'>школа</a>, <a href='/tags/эротика'>эротика</a></div>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Переводчики</div>
+		<div class="row3_left">
+			<div class="item2">
+            	<h3 class="item2">﻿<a href='/translation/147479/' title='Efemische (RuRa-team) '>Efemische (RuRa-team)</a>, <a href='/translation/147480/' title='ArtemAvix (RuRa-team) '>ArtemAvix (RuRa-team)</a>, <a href='/translation/147481/' title='Ikki (RuRa-team) '>Ikki (RuRa-team)</a><a href='/translation/' title=' '></a></h3>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row4">
+		<div class="row4_left">
+            <div style="font-size:15px;">
+							<div class="user_link_short" id="ratig-layer-folow-147482" >
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '7','147482','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> <b>Отслеживать</b> новое</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '17','147482','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> Не <b>отслеживать</b></a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-read-147482">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '8','147482','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Хочу прочитать!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '18','147482','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Не хочу прочитать</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-wanted-147482">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '9','147482','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Прочитано!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '19','147482','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Не прочитано!</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-fav-147482">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '10','147482','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Добавить в коллекцию</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '110','147482','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Удалить из коллекции</a>
+                 </span>
+            </div>               
+            </div>
+		</div>
+	</div>
+	<div class="line_break"></div>
+	<div class="tags">    	
+		Да начнётся академический экшен мечников, в котором главному герою придётся восходить на вершину горы от самого её основания, побеждая по пути грозных врагов!Рыцари-маги — это современные волшебники, способные воплощать душу в вид...
+    </div>
+</div>	<div class="content_row" title="Yajin Tensei">
+	<div class="manga_images" style="margin-right:-60px;">
+    	<a href="/manga/147185-yajin-tensei.html"><img src="https://imgcover.manga-chan.me/showfull_retina/uploads/posts/2022-06/thumbs/1655140918_yajin-tensei-karate-survivor-in-another-world.jpg" style="display: inline;" /></a>
+        <div style="font-size:12px;margin-left:17px;margin-top:6px;">
+        	Плюсиков: <font style="color:green;"><b>170</b></font> <span id="ratig-layer-147185" style="float:left;"><a rel="nofollow" style="text-decoration:none;" href="#" class="fav_plus" onclick="dleRate('6', '147185'); return false;" title="Эта манга мне понравилась!"><img src="/templates/mangachan/images/plusplus.png" style="width:13px;height:13px;" /></a>&nbsp;</span>
+        </div>
+	</div>
+	<div class="manga_row1">
+        <div style="background-color:#f2f4f6;padding-left:5px;margin-left:-5px;padding-top:5px;padding-bottom:8px;margin-right:-22px;margin-top:-1px;">
+            <div style="float:right;font-size:14px;margin-left:5px;margin-top:3px;margin-right:10px;"><a href="/type/Манга" style="color:#006ffa;" rel="nofollow" title="Выбрать только Манга">Манга</a></div>
+	        <h2><a href="/manga/147185-yajin-tensei.html" title="Yajin Tensei" class="title_link">Yajin Tensei (Каратист, выживающий в другом мире)</a></h2>
+        </div>
+	</div>
+	<div class="manga_row2">
+		<div class="item">Автор</div>
+		<div class="row3_left">
+			<div class="item2">
+				<h3 class="item2">﻿<a href='/mangaka/147183/' title='KOBAYASHI Takahito манга'>KOBAYASHI Takahito</a>, <a href='/mangaka/147184/' title='Yazin манга'>Yazin</a><a href='/mangaka/' title=' манга'></a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Статус (томов)</div>
+		<div class="row3_left">
+			<div class="item2" style="font-size:14px;">
+            	3 тома, выпуск продолжается <span style="margin-left:20px;"><b>42 глав</b>, перевод продолжается</span>
+			</div>
+		</div>
+		<div class="row3_right">
+			
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Тэги</div>
+		<div class="row3_left">
+			<div class="item4">
+            	<div class="genre"><a href='/tags/боевые_искусства'>боевые_искусства</a>, <a href='/tags/фэнтези'>фэнтези</a>, <a href='/tags/боевик'>боевик</a>, <a href='/tags/перерождение'>перерождение</a>, <a href='/tags/приключения'>приключения</a>, <a href='/tags/исекай'>исекай</a>, <a href='/tags/жестокость'>жестокость</a>, <a href='/tags/система'>система</a></div>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Переводчики</div>
+		<div class="row3_left">
+			<div class="item2">
+            	<h3 class="item2">﻿<a href='/translation/137584/' title='Ямагути '>Ямагути</a>, <a href='/translation/146665/' title='F4keSm1le '>F4keSm1le</a><a href='/translation/' title=' '></a></h3>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row4">
+		<div class="row4_left">
+            <div style="font-size:15px;">
+							<div class="user_link_short" id="ratig-layer-folow-147185" >
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '7','147185','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> <b>Отслеживать</b> новое</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '17','147185','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> Не <b>отслеживать</b></a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-read-147185">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '8','147185','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Хочу прочитать!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '18','147185','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Не хочу прочитать</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-wanted-147185">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '9','147185','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Прочитано!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '19','147185','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Не прочитано!</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-fav-147185">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '10','147185','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Добавить в коллекцию</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '110','147185','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Удалить из коллекции</a>
+                 </span>
+            </div>               
+            </div>
+		</div>
+	</div>
+	<div class="line_break"></div>
+	<div class="tags">    	
+		Представьте, что вы переродились в другом мире голым и одиноким в лесу. Единственное, на что вы можете положиться без магии — ваш ум и кулаки!...
+    </div>
+</div>	<div class="content_row" title="Manager Kim">
+	<div class="manga_images" style="margin-right:-60px;">
+    	<a href="/manga/147026-manager-kim.html"><img src="https://imgcover.manga-chan.me/showfull_retina/uploads/posts/2022-06/thumbs/1654530773_xrd2qexlwzqq_250x350.jpg" style="display: inline;" /></a>
+        <div style="font-size:12px;margin-left:17px;margin-top:6px;">
+        	Плюсиков: <font style="color:green;"><b>7</b></font> <span id="ratig-layer-147026" style="float:left;"><a rel="nofollow" style="text-decoration:none;" href="#" class="fav_plus" onclick="dleRate('6', '147026'); return false;" title="Эта манга мне понравилась!"><img src="/templates/mangachan/images/plusplus.png" style="width:13px;height:13px;" /></a>&nbsp;</span>
+        </div>
+	</div>
+	<div class="manga_row1">
+        <div style="background-color:#f2f4f6;padding-left:5px;margin-left:-5px;padding-top:5px;padding-bottom:8px;margin-right:-22px;margin-top:-1px;">
+            <div style="float:right;font-size:14px;margin-left:5px;margin-top:3px;margin-right:10px;"><a href="/type/Манхва" style="color:#006ffa;" rel="nofollow" title="Выбрать только Манхва">Манхва</a></div>
+	        <h2><a href="/manga/147026-manager-kim.html" title="Manager Kim" class="title_link">Manager Kim (Менеджер Ким)</a></h2>
+        </div>
+	</div>
+	<div class="manga_row2">
+		<div class="item">Автор</div>
+		<div class="row3_left">
+			<div class="item2">
+				<h3 class="item2">﻿<a href='/mangaka/147025/' title='PARK Tae Jun манга'>PARK Tae Jun</a><a href='/mangaka/' title=' манга'></a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Статус (томов)</div>
+		<div class="row3_left">
+			<div class="item2" style="font-size:14px;">
+            	1 том, выпуск продолжается <span style="margin-left:20px;"><b>47 глав</b>, перевод продолжается</span>
+			</div>
+		</div>
+		<div class="row3_right">
+			
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Тэги</div>
+		<div class="row3_left">
+			<div class="item4">
+            	<div class="genre"><a href='/tags/боевик'>боевик</a>, <a href='/tags/боевые_искусства'>боевые_искусства</a>, <a href='/tags/в_цвете'>в_цвете</a>, <a href='/tags/веб'>веб</a>, <a href='/tags/драма'>драма</a>, <a href='/tags/мистика'>мистика</a>, <a href='/tags/приключения'>приключения</a>, <a href='/tags/сэйнэн'>сэйнэн</a></div>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Переводчики</div>
+		<div class="row3_left">
+			<div class="item2">
+            	<h3 class="item2">﻿<a href='/translation/120384/' title='Assley Team '>Assley Team</a><a href='/translation/' title=' '></a></h3>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row4">
+		<div class="row4_left">
+            <div style="font-size:15px;">
+							<div class="user_link_short" id="ratig-layer-folow-147026" >
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '7','147026','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> <b>Отслеживать</b> новое</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '17','147026','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> Не <b>отслеживать</b></a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-read-147026">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '8','147026','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Хочу прочитать!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '18','147026','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Не хочу прочитать</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-wanted-147026">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '9','147026','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Прочитано!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '19','147026','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Не прочитано!</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-fav-147026">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '10','147026','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Добавить в коллекцию</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '110','147026','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Удалить из коллекции</a>
+                 </span>
+            </div>               
+            </div>
+		</div>
+	</div>
+	<div class="line_break"></div>
+	<div class="tags">    	
+		"Пожалуйста, не трогайте мужчину в очках...”Менеджер Ким, глава семьи, который бросил работу специального агента и выбрал обычную жизнь ради своей дочери Мин Джи.Затем в один прекрасный день Мин Джи исчезает, не сказав ни слова, ...
+    </div>
+</div>	<div class="content_row" title="The Youngest Son of a Swordsman">
+	<div class="manga_images" style="margin-right:-60px;">
+    	<a href="/manga/147021-the-youngest-son-of-a-swordsman.html"><img src="https://imgcover.manga-chan.me/showfull_retina/uploads/posts/2022-06/thumbs/1654530222_n55x4mwm4i4k_250x350.jpg" style="display: inline;" /></a>
+        <div style="font-size:12px;margin-left:17px;margin-top:6px;">
+        	Плюсиков: <font style="color:green;"><b>14</b></font> <span id="ratig-layer-147021" style="float:left;"><a rel="nofollow" style="text-decoration:none;" href="#" class="fav_plus" onclick="dleRate('6', '147021'); return false;" title="Эта манга мне понравилась!"><img src="/templates/mangachan/images/plusplus.png" style="width:13px;height:13px;" /></a>&nbsp;</span>
+        </div>
+	</div>
+	<div class="manga_row1">
+        <div style="background-color:#f2f4f6;padding-left:5px;margin-left:-5px;padding-top:5px;padding-bottom:8px;margin-right:-22px;margin-top:-1px;">
+            <div style="float:right;font-size:14px;margin-left:5px;margin-top:3px;margin-right:10px;"><a href="/type/Манхва" style="color:#006ffa;" rel="nofollow" title="Выбрать только Манхва">Манхва</a></div>
+	        <h2><a href="/manga/147021-the-youngest-son-of-a-swordsman.html" title="The Youngest Son of a Swordsman" class="title_link">The Youngest Son of a Swordsman (Младший сын мечника)</a></h2>
+        </div>
+	</div>
+	<div class="manga_row2">
+		<div class="item">Автор</div>
+		<div class="row3_left">
+			<div class="item2">
+				<h3 class="item2">﻿<a href='/mangaka/147017/' title='AZI манга'>AZI</a>, <a href='/mangaka/147018/' title='Emperor Penguin манга'>Emperor Penguin</a>, <a href='/mangaka/147019/' title='Lee Je Won манга'>Lee Je Won</a><a href='/mangaka/' title=' манга'></a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Статус (томов)</div>
+		<div class="row3_left">
+			<div class="item2" style="font-size:14px;">
+            	1 том, выпуск продолжается <span style="margin-left:20px;"><b>40 глав</b>, перевод продолжается</span>
+			</div>
+		</div>
+		<div class="row3_right">
+			
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Тэги</div>
+		<div class="row3_left">
+			<div class="item4">
+            	<div class="genre"><a href='/tags/боевик'>боевик</a>, <a href='/tags/боевые_искусства'>боевые_искусства</a>, <a href='/tags/в_цвете'>в_цвете</a>, <a href='/tags/веб'>веб</a>, <a href='/tags/героическое_фэнтези'>героическое_фэнтези</a>, <a href='/tags/демоны'>демоны</a>, <a href='/tags/драма'>драма</a>, <a href='/tags/исекай'>исекай</a>, <a href='/tags/комедия'>комедия</a>, <a href='/tags/повседневность'>повседневность</a>, <a href='/tags/психология'>психология</a>, <a href='/tags/сёнэн'>сёнэн</a>, <a href='/tags/фэнтези'>фэнтези</a></div>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Переводчики</div>
+		<div class="row3_left">
+			<div class="item2">
+            	<h3 class="item2">﻿<a href='/translation/147020/' title='Bikini Bottom '>Bikini Bottom</a><a href='/translation/' title=' '></a></h3>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row4">
+		<div class="row4_left">
+            <div style="font-size:15px;">
+							<div class="user_link_short" id="ratig-layer-folow-147021" >
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '7','147021','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> <b>Отслеживать</b> новое</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '17','147021','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> Не <b>отслеживать</b></a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-read-147021">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '8','147021','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Хочу прочитать!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '18','147021','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Не хочу прочитать</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-wanted-147021">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '9','147021','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Прочитано!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '19','147021','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Не прочитано!</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-fav-147021">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '10','147021','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Добавить в коллекцию</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '110','147021','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Удалить из коллекции</a>
+                 </span>
+            </div>               
+            </div>
+		</div>
+	</div>
+	<div class="line_break"></div>
+	<div class="tags">    	
+		Джин Рункандель был младшим сыном, в самой престижной семьи фехтовальщиков в стране...И самым большим неудачником в истории Рункандель.Ему, которого выгнали с позором и бессмысленным финалом, дали еще один шанс."Как ты хочешь исп...
+    </div>
+</div>	<div class="content_row" title="BJ Archmage">
+	<div class="manga_images" style="margin-right:-60px;">
+    	<a href="/manga/147015-bj-archmage.html"><img src="https://imgcover.manga-chan.me/showfull_retina/uploads/posts/2022-06/thumbs/1654529630_l2fdib2s07u2_250x350.jpg" style="display: inline;" /></a>
+        <div style="font-size:12px;margin-left:17px;margin-top:6px;">
+        	Плюсиков: <font style="color:green;"><b>7</b></font> <span id="ratig-layer-147015" style="float:left;"><a rel="nofollow" style="text-decoration:none;" href="#" class="fav_plus" onclick="dleRate('6', '147015'); return false;" title="Эта манга мне понравилась!"><img src="/templates/mangachan/images/plusplus.png" style="width:13px;height:13px;" /></a>&nbsp;</span>
+        </div>
+	</div>
+	<div class="manga_row1">
+        <div style="background-color:#f2f4f6;padding-left:5px;margin-left:-5px;padding-top:5px;padding-bottom:8px;margin-right:-22px;margin-top:-1px;">
+            <div style="float:right;font-size:14px;margin-left:5px;margin-top:3px;margin-right:10px;"><a href="/type/Манхва" style="color:#006ffa;" rel="nofollow" title="Выбрать только Манхва">Манхва</a></div>
+	        <h2><a href="/manga/147015-bj-archmage.html" title="BJ Archmage" class="title_link">BJ Archmage (BJ Архимаг)</a></h2>
+        </div>
+	</div>
+	<div class="manga_row2">
+		<div class="item">Автор</div>
+		<div class="row3_left">
+			<div class="item2">
+				<h3 class="item2">﻿<a href='/mangaka/147013/' title='Didat манга'>Didat</a>, <a href='/mangaka/147014/' title='SADU манга'>SADU</a><a href='/mangaka/' title=' манга'></a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Статус (томов)</div>
+		<div class="row3_left">
+			<div class="item2" style="font-size:14px;">
+            	1 том, выпуск продолжается <span style="margin-left:20px;"><b>44 глав</b>, перевод продолжается</span>
+			</div>
+		</div>
+		<div class="row3_right">
+			
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Тэги</div>
+		<div class="row3_left">
+			<div class="item4">
+            	<div class="genre"><a href='/tags/боевик'>боевик</a>, <a href='/tags/боевые_искусства'>боевые_искусства</a>, <a href='/tags/в_цвете'>в_цвете</a>, <a href='/tags/веб'>веб</a>, <a href='/tags/игра'>игра</a>, <a href='/tags/магия'>магия</a>, <a href='/tags/мистика'>мистика</a>, <a href='/tags/приключения'>приключения</a>, <a href='/tags/сёнэн'>сёнэн</a>, <a href='/tags/спорт'>спорт</a>, <a href='/tags/фэнтези'>фэнтези</a></div>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Переводчики</div>
+		<div class="row3_left">
+			<div class="item2">
+            	<h3 class="item2">﻿<a href='/translation/136138/' title='V.Corp '>V.Corp</a><a href='/translation/' title=' '></a></h3>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row4">
+		<div class="row4_left">
+            <div style="font-size:15px;">
+							<div class="user_link_short" id="ratig-layer-folow-147015" >
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '7','147015','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> <b>Отслеживать</b> новое</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '17','147015','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> Не <b>отслеживать</b></a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-read-147015">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '8','147015','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Хочу прочитать!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '18','147015','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Не хочу прочитать</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-wanted-147015">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '9','147015','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Прочитано!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '19','147015','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Не прочитано!</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-fav-147015">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '10','147015','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Добавить в коллекцию</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '110','147015','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Удалить из коллекции</a>
+                 </span>
+            </div>               
+            </div>
+		</div>
+	</div>
+	<div class="line_break"></div>
+	<div class="tags">    	
+		У Чон Хёну не было ни «таланта», ни «денег», ни «удачи».«Почему я могу видеть скрытую информацию в игре?»После несчастного случая с поражением электрическим током я начал видеть в игре вещи, которые раньше не мог видеть....
+    </div>
+</div>	<div class="content_row" title="Ultra Alter">
+	<div class="manga_images" style="margin-right:-60px;">
+    	<a href="/manga/147010-ultra-alter.html"><img src="https://imgcover.manga-chan.me/showfull_retina/uploads/posts/2022-06/thumbs/1654527026_wd5bfgxhypyr_250x350.jpg" style="display: inline;" /></a>
+        <div style="font-size:12px;margin-left:17px;margin-top:6px;">
+        	Плюсиков: <font style="color:green;"><b>7</b></font> <span id="ratig-layer-147010" style="float:left;"><a rel="nofollow" style="text-decoration:none;" href="#" class="fav_plus" onclick="dleRate('6', '147010'); return false;" title="Эта манга мне понравилась!"><img src="/templates/mangachan/images/plusplus.png" style="width:13px;height:13px;" /></a>&nbsp;</span>
+        </div>
+	</div>
+	<div class="manga_row1">
+        <div style="background-color:#f2f4f6;padding-left:5px;margin-left:-5px;padding-top:5px;padding-bottom:8px;margin-right:-22px;margin-top:-1px;">
+            <div style="float:right;font-size:14px;margin-left:5px;margin-top:3px;margin-right:10px;"><a href="/type/Манхва" style="color:#006ffa;" rel="nofollow" title="Выбрать только Манхва">Манхва</a></div>
+	        <h2><a href="/manga/147010-ultra-alter.html" title="Ultra Alter" class="title_link">Ultra Alter (Сильнейший твинк)</a></h2>
+        </div>
+	</div>
+	<div class="manga_row2">
+		<div class="item">Автор</div>
+		<div class="row3_left">
+			<div class="item2">
+				<h3 class="item2">﻿<a href='/mangaka/147009/' title='JIXKSEE манга'>JIXKSEE</a><a href='/mangaka/' title=' манга'></a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Статус (томов)</div>
+		<div class="row3_left">
+			<div class="item2" style="font-size:14px;">
+            	1 том, выпуск продолжается <span style="margin-left:20px;"><b>49 глав</b>, перевод продолжается</span>
+			</div>
+		</div>
+		<div class="row3_right">
+			
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Тэги</div>
+		<div class="row3_left">
+			<div class="item4">
+            	<div class="genre"><a href='/tags/боевик'>боевик</a>, <a href='/tags/боевые_искусства'>боевые_искусства</a>, <a href='/tags/в_цвете'>в_цвете</a>, <a href='/tags/веб'>веб</a>, <a href='/tags/драма'>драма</a>, <a href='/tags/игра'>игра</a>, <a href='/tags/научная_фантастика'>научная_фантастика</a>, <a href='/tags/приключения'>приключения</a>, <a href='/tags/романтика'>романтика</a>, <a href='/tags/сёнэн'>сёнэн</a>, <a href='/tags/ужасы'>ужасы</a>, <a href='/tags/школа'>школа</a></div>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Переводчики</div>
+		<div class="row3_left">
+			<div class="item2">
+            	<h3 class="item2">﻿<a href='/translation/133331/' title='tfoxs '>tfoxs</a><a href='/translation/' title=' '></a></h3>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row4">
+		<div class="row4_left">
+            <div style="font-size:15px;">
+							<div class="user_link_short" id="ratig-layer-folow-147010" >
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '7','147010','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> <b>Отслеживать</b> новое</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '17','147010','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> Не <b>отслеживать</b></a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-read-147010">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '8','147010','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Хочу прочитать!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '18','147010','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Не хочу прочитать</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-wanted-147010">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '9','147010','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Прочитано!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '19','147010','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Не прочитано!</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-fav-147010">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '10','147010','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Добавить в коллекцию</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '110','147010','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Удалить из коллекции</a>
+                 </span>
+            </div>               
+            </div>
+		</div>
+	</div>
+	<div class="line_break"></div>
+	<div class="tags">    	
+		Ли О Рым - старшеклассник, играющий персонажем "Целитель" в VR MMORPG игре. Однажды его второй персонаж класса "Мститель", которого он тайно развивал, становится лучшим. Сможет ли Ли О Рым преодолеть все опасности, победить мо...
+    </div>
+</div>	<div class="content_row" title="Heavenly Demon Instructor">
+	<div class="manga_images" style="margin-right:-60px;">
+    	<a href="/manga/147005-heavenly-demon-instructor.html"><img src="https://imgcover.manga-chan.me/showfull_retina/uploads/posts/2022-06/thumbs/1654526499_grktrxxorwzw_250x350.jpg" style="display: inline;" /></a>
+        <div style="font-size:12px;margin-left:17px;margin-top:6px;">
+        	Плюсиков: <font style="color:green;"><b>8</b></font> <span id="ratig-layer-147005" style="float:left;"><a rel="nofollow" style="text-decoration:none;" href="#" class="fav_plus" onclick="dleRate('6', '147005'); return false;" title="Эта манга мне понравилась!"><img src="/templates/mangachan/images/plusplus.png" style="width:13px;height:13px;" /></a>&nbsp;</span>
+        </div>
+	</div>
+	<div class="manga_row1">
+        <div style="background-color:#f2f4f6;padding-left:5px;margin-left:-5px;padding-top:5px;padding-bottom:8px;margin-right:-22px;margin-top:-1px;">
+            <div style="float:right;font-size:14px;margin-left:5px;margin-top:3px;margin-right:10px;"><a href="/type/Манхва" style="color:#006ffa;" rel="nofollow" title="Выбрать только Манхва">Манхва</a></div>
+	        <h2><a href="/manga/147005-heavenly-demon-instructor.html" title="Heavenly Demon Instructor" class="title_link">Heavenly Demon Instructor (Мой наставник - небесный демон)</a></h2>
+        </div>
+	</div>
+	<div class="manga_row2">
+		<div class="item">Автор</div>
+		<div class="row3_left">
+			<div class="item2">
+				<h3 class="item2">﻿<a href='/mangaka/147002/' title='Hwabong манга'>Hwabong</a>, <a href='/mangaka/147003/' title='Kim Jaka манга'>Kim Jaka</a>, <a href='/mangaka/147004/' title='Jodol манга'>Jodol</a><a href='/mangaka/' title=' манга'></a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Статус (томов)</div>
+		<div class="row3_left">
+			<div class="item2" style="font-size:14px;">
+            	1 том, выпуск продолжается <span style="margin-left:20px;"><b>59 глав</b>, перевод продолжается</span>
+			</div>
+		</div>
+		<div class="row3_right">
+			
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Тэги</div>
+		<div class="row3_left">
+			<div class="item4">
+            	<div class="genre"><a href='/tags/боевик'>боевик</a>, <a href='/tags/боевые_искусства'>боевые_искусства</a>, <a href='/tags/в_цвете'>в_цвете</a>, <a href='/tags/веб'>веб</a>, <a href='/tags/игра'>игра</a>, <a href='/tags/приключения'>приключения</a>, <a href='/tags/сёнэн'>сёнэн</a>, <a href='/tags/фэнтези'>фэнтези</a></div>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Переводчики</div>
+		<div class="row3_left">
+			<div class="item2">
+            	<h3 class="item2">﻿<a href='/translation/130454/' title='Novate '>Novate</a><a href='/translation/' title=' '></a></h3>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row4">
+		<div class="row4_left">
+            <div style="font-size:15px;">
+							<div class="user_link_short" id="ratig-layer-folow-147005" >
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '7','147005','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> <b>Отслеживать</b> новое</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '17','147005','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> Не <b>отслеживать</b></a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-read-147005">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '8','147005','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Хочу прочитать!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '18','147005','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Не хочу прочитать</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-wanted-147005">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '9','147005','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Прочитано!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '19','147005','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Не прочитано!</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-fav-147005">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '10','147005','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Добавить в коллекцию</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '110','147005','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Удалить из коллекции</a>
+                 </span>
+            </div>               
+            </div>
+		</div>
+	</div>
+	<div class="line_break"></div>
+	<div class="tags">    	
+		Катастрофа, обрушившаяся на Землю (Воздействие портала), привела к тому, что Пак Хён-Су у себя на глазах потерял родителей.Из близких людей у Хён-Су остался только младший брат, находящийся без сознания.Он сделал все возможное, чт...
+    </div>
+</div>	<div class="content_row" title="The Previous Life Murim Ranker">
+	<div class="manga_images" style="margin-right:-60px;">
+    	<a href="/manga/146998-the-previous-life-murim-ranker.html"><img src="https://imgcover.manga-chan.me/showfull_retina/uploads/posts/2022-06/thumbs/1654525779_yh8petmpfjdn_250x350.jpg" style="display: inline;" /></a>
+        <div style="font-size:12px;margin-left:17px;margin-top:6px;">
+        	Плюсиков: <font style="color:green;"><b>10</b></font> <span id="ratig-layer-146998" style="float:left;"><a rel="nofollow" style="text-decoration:none;" href="#" class="fav_plus" onclick="dleRate('6', '146998'); return false;" title="Эта манга мне понравилась!"><img src="/templates/mangachan/images/plusplus.png" style="width:13px;height:13px;" /></a>&nbsp;</span>
+        </div>
+	</div>
+	<div class="manga_row1">
+        <div style="background-color:#f2f4f6;padding-left:5px;margin-left:-5px;padding-top:5px;padding-bottom:8px;margin-right:-22px;margin-top:-1px;">
+            <div style="float:right;font-size:14px;margin-left:5px;margin-top:3px;margin-right:10px;"><a href="/type/Манхва" style="color:#006ffa;" rel="nofollow" title="Выбрать только Манхва">Манхва</a></div>
+	        <h2><a href="/manga/146998-the-previous-life-murim-ranker.html" title="The Previous Life Murim Ranker" class="title_link">The Previous Life Murim Ranker (Реинкарнация Ранкера-Некроманта в муриме)</a></h2>
+        </div>
+	</div>
+	<div class="manga_row2">
+		<div class="item">Автор</div>
+		<div class="row3_left">
+			<div class="item2">
+				<h3 class="item2">﻿<a href='/mangaka/146996/' title='Sanbo манга'>Sanbo</a>, <a href='/mangaka/146997/' title='In Yong манга'>In Yong</a><a href='/mangaka/' title=' манга'></a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Статус (томов)</div>
+		<div class="row3_left">
+			<div class="item2" style="font-size:14px;">
+            	1 том, выпуск продолжается <span style="margin-left:20px;"><b>59 глав</b>, перевод продолжается</span>
+			</div>
+		</div>
+		<div class="row3_right">
+			
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Тэги</div>
+		<div class="row3_left">
+			<div class="item4">
+            	<div class="genre"><a href='/tags/боевик'>боевик</a>, <a href='/tags/боевые_искусства'>боевые_искусства</a>, <a href='/tags/в_цвете'>в_цвете</a>, <a href='/tags/веб'>веб</a>, <a href='/tags/драма'>драма</a>, <a href='/tags/история'>история</a>, <a href='/tags/перерождение'>перерождение</a>, <a href='/tags/приключения'>приключения</a>, <a href='/tags/сёнэн'>сёнэн</a>, <a href='/tags/фэнтези'>фэнтези</a></div>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Переводчики</div>
+		<div class="row3_left">
+			<div class="item2">
+            	<h3 class="item2">﻿<a href='/translation/130454/' title='Novate '>Novate</a><a href='/translation/' title=' '></a></h3>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row4">
+		<div class="row4_left">
+            <div style="font-size:15px;">
+							<div class="user_link_short" id="ratig-layer-folow-146998" >
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '7','146998','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> <b>Отслеживать</b> новое</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '17','146998','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> Не <b>отслеживать</b></a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-read-146998">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '8','146998','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Хочу прочитать!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '18','146998','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Не хочу прочитать</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-wanted-146998">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '9','146998','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Прочитано!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '19','146998','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Не прочитано!</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-fav-146998">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '10','146998','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Добавить в коллекцию</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '110','146998','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Удалить из коллекции</a>
+                 </span>
+            </div>               
+            </div>
+		</div>
+	</div>
+	<div class="line_break"></div>
+	<div class="tags">    	
+		Кан Тэ Ха, охотник SSS-ранга, в одиночку бросает вызов сильнейшей Гильдии "Грифон", но погибает после ожесточенного сражения! Однако…—…Я стал свиньей?Это мир Мурима? Теперь я – Ю Шин Ун, старший наследник клана Пэк Ун. Ситуация ...
+    </div>
+</div>	<div class="content_row" title="Leveling With The Gods">
+	<div class="manga_images" style="margin-right:-60px;">
+    	<a href="/manga/146995-leveling-with-the-gods.html"><img src="https://imgcover.manga-chan.me/showfull_retina/uploads/posts/2022-06/thumbs/1654525516_yeb4bijshvsp_250x350.jpg" style="display: inline;" /></a>
+        <div style="font-size:12px;margin-left:17px;margin-top:6px;">
+        	Плюсиков: <font style="color:green;"><b>8</b></font> <span id="ratig-layer-146995" style="float:left;"><a rel="nofollow" style="text-decoration:none;" href="#" class="fav_plus" onclick="dleRate('6', '146995'); return false;" title="Эта манга мне понравилась!"><img src="/templates/mangachan/images/plusplus.png" style="width:13px;height:13px;" /></a>&nbsp;</span>
+        </div>
+	</div>
+	<div class="manga_row1">
+        <div style="background-color:#f2f4f6;padding-left:5px;margin-left:-5px;padding-top:5px;padding-bottom:8px;margin-right:-22px;margin-top:-1px;">
+            <div style="float:right;font-size:14px;margin-left:5px;margin-top:3px;margin-right:10px;"><a href="/type/Манхва" style="color:#006ffa;" rel="nofollow" title="Выбрать только Манхва">Манхва</a></div>
+	        <h2><a href="/manga/146995-leveling-with-the-gods.html" title="Leveling With The Gods" class="title_link">Leveling With The Gods (Поднятие уровня с богами)</a></h2>
+        </div>
+	</div>
+	<div class="manga_row2">
+		<div class="item">Автор</div>
+		<div class="row3_left">
+			<div class="item2">
+				<h3 class="item2">﻿<a href='/mangaka/146993/' title='Black Ajin манга'>Black Ajin</a>, <a href='/mangaka/146994/' title='Ohyeon манга'>Ohyeon</a><a href='/mangaka/' title=' манга'></a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Статус (томов)</div>
+		<div class="row3_left">
+			<div class="item2" style="font-size:14px;">
+            	1 том, выпуск продолжается <span style="margin-left:20px;"><b>44 глав</b>, перевод продолжается</span>
+			</div>
+		</div>
+		<div class="row3_right">
+			
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Тэги</div>
+		<div class="row3_left">
+			<div class="item4">
+            	<div class="genre"><a href='/tags/боевик'>боевик</a>, <a href='/tags/боевые_искусства'>боевые_искусства</a>, <a href='/tags/в_цвете'>в_цвете</a>, <a href='/tags/веб'>веб</a>, <a href='/tags/героическое_фэнтези'>героическое_фэнтези</a>, <a href='/tags/игра'>игра</a>, <a href='/tags/приключения'>приключения</a>, <a href='/tags/сверхъестественное'>сверхъестественное</a>, <a href='/tags/сёнэн'>сёнэн</a>, <a href='/tags/фэнтези'>фэнтези</a></div>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Переводчики</div>
+		<div class="row3_left">
+			<div class="item2">
+            	<h3 class="item2">﻿<a href='/translation/128224/' title='Монархия Рефлай '>Монархия Рефлай</a><a href='/translation/' title=' '></a></h3>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row4">
+		<div class="row4_left">
+            <div style="font-size:15px;">
+							<div class="user_link_short" id="ratig-layer-folow-146995" >
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '7','146995','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> <b>Отслеживать</b> новое</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '17','146995','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> Не <b>отслеживать</b></a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-read-146995">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '8','146995','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Хочу прочитать!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '18','146995','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Не хочу прочитать</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-wanted-146995">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '9','146995','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Прочитано!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '19','146995','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Не прочитано!</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-fav-146995">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '10','146995','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Добавить в коллекцию</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '110','146995','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Удалить из коллекции</a>
+                 </span>
+            </div>               
+            </div>
+		</div>
+	</div>
+	<div class="line_break"></div>
+	<div class="tags">    	
+		Он стал сильнее, быстрее всех... но в конце проиграл... В самом конце его ожидало лишь отчаяние...В последние мгновения ему дали еще один шанс... Благодаря жертве товарища его судьба еще не была решена...Вернувшись в прошлое, он с...
+    </div>
+</div>	<div class="content_row" title="The Evil Empress Way to the Glory">
+	<div class="manga_images" style="margin-right:-60px;">
+    	<a href="/manga/146979-the-evil-empress-way-to-the-glory.html"><img src="https://imgcover.manga-chan.me/showfull_retina/uploads/posts/2022-06/thumbs/1654523596_oceo8y6yhcru_250x350.jpg" style="display: inline;" /></a>
+        <div style="font-size:12px;margin-left:17px;margin-top:6px;">
+        	Плюсиков: <font style="color:green;"><b>24</b></font> <span id="ratig-layer-146979" style="float:left;"><a rel="nofollow" style="text-decoration:none;" href="#" class="fav_plus" onclick="dleRate('6', '146979'); return false;" title="Эта манга мне понравилась!"><img src="/templates/mangachan/images/plusplus.png" style="width:13px;height:13px;" /></a>&nbsp;</span>
+        </div>
+	</div>
+	<div class="manga_row1">
+        <div style="background-color:#f2f4f6;padding-left:5px;margin-left:-5px;padding-top:5px;padding-bottom:8px;margin-right:-22px;margin-top:-1px;">
+            <div style="float:right;font-size:14px;margin-left:5px;margin-top:3px;margin-right:10px;"><a href="/type/Маньхуа" style="color:#006ffa;" rel="nofollow" title="Выбрать только Маньхуа">Маньхуа</a></div>
+	        <h2><a href="/manga/146979-the-evil-empress-way-to-the-glory.html" title="The Evil Empress Way to the Glory" class="title_link">The Evil Empress Way to the Glory (Гарем злой императрицы)</a></h2>
+        </div>
+	</div>
+	<div class="manga_row2">
+		<div class="item">Автор</div>
+		<div class="row3_left">
+			<div class="item2">
+				<h3 class="item2">﻿<a href='/mangaka/146977/' title='Zhiyin Man Ke манга'>Zhiyin Man Ke</a><a href='/mangaka/' title=' манга'></a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Статус (томов)</div>
+		<div class="row3_left">
+			<div class="item2" style="font-size:14px;">
+            	1 том, выпуск продолжается <span style="margin-left:20px;"><b>45 глав</b>, перевод продолжается</span>
+			</div>
+		</div>
+		<div class="row3_right">
+			
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Тэги</div>
+		<div class="row3_left">
+			<div class="item4">
+            	<div class="genre"><a href='/tags/боевые_искусства'>боевые_искусства</a>, <a href='/tags/в_цвете'>в_цвете</a>, <a href='/tags/веб'>веб</a>, <a href='/tags/гарем'>гарем</a>, <a href='/tags/дзёсэй'>дзёсэй</a>, <a href='/tags/история'>история</a>, <a href='/tags/перерождение'>перерождение</a>, <a href='/tags/романтика'>романтика</a>, <a href='/tags/фэнтези'>фэнтези</a></div>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Переводчики</div>
+		<div class="row3_left">
+			<div class="item2">
+            	<h3 class="item2">﻿<a href='/translation/146978/' title='Luminous Team '>Luminous Team</a>, <a href='/translation/55211/' title='eredna '>eredna</a><a href='/translation/' title=' '></a></h3>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row4">
+		<div class="row4_left">
+            <div style="font-size:15px;">
+							<div class="user_link_short" id="ratig-layer-folow-146979" >
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '7','146979','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> <b>Отслеживать</b> новое</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '17','146979','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> Не <b>отслеживать</b></a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-read-146979">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '8','146979','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Хочу прочитать!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '18','146979','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Не хочу прочитать</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-wanted-146979">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '9','146979','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Прочитано!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '19','146979','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Не прочитано!</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-fav-146979">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '10','146979','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Добавить в коллекцию</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '110','146979','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Удалить из коллекции</a>
+                 </span>
+            </div>               
+            </div>
+		</div>
+	</div>
+	<div class="line_break"></div>
+	<div class="tags">    	
+		Богиня Войны умерла с обидами. Теперь, возродившись как Е Вэйюнь, она начинает новую счастливую жизнь. Какая месть? Какая мразь? С насилием надо бороться насилием! Я стану богатой женщиной и создам свой собственный гарем. «В прошл...
+    </div>
+</div>	<div class="content_row" title="Return of the Blossoming Blade">
+	<div class="manga_images" style="margin-right:-60px;">
+    	<a href="/manga/146941-return-of-the-blossoming-blade.html"><img src="https://imgcover.manga-chan.me/showfull_retina/uploads/posts/2022-06/thumbs/1654452801_t5dfexqbpdwe_250x350.jpg" style="display: inline;" /></a>
+        <div style="font-size:12px;margin-left:17px;margin-top:6px;">
+        	Плюсиков: <font style="color:green;"><b>12</b></font> <span id="ratig-layer-146941" style="float:left;"><a rel="nofollow" style="text-decoration:none;" href="#" class="fav_plus" onclick="dleRate('6', '146941'); return false;" title="Эта манга мне понравилась!"><img src="/templates/mangachan/images/plusplus.png" style="width:13px;height:13px;" /></a>&nbsp;</span>
+        </div>
+	</div>
+	<div class="manga_row1">
+        <div style="background-color:#f2f4f6;padding-left:5px;margin-left:-5px;padding-top:5px;padding-bottom:8px;margin-right:-22px;margin-top:-1px;">
+            <div style="float:right;font-size:14px;margin-left:5px;margin-top:3px;margin-right:10px;"><a href="/type/Манхва" style="color:#006ffa;" rel="nofollow" title="Выбрать только Манхва">Манхва</a></div>
+	        <h2><a href="/manga/146941-return-of-the-blossoming-blade.html" title="Return of the Blossoming Blade" class="title_link">Return of the Blossoming Blade (Возрождение Хуашань)</a></h2>
+        </div>
+	</div>
+	<div class="manga_row2">
+		<div class="item">Автор</div>
+		<div class="row3_left">
+			<div class="item2">
+				<h3 class="item2">﻿<a href='/mangaka/146939/' title='Biga манга'>Biga</a>, <a href='/mangaka/104485/' title='Lico манга'>Lico</a><a href='/mangaka/' title=' манга'></a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Статус (томов)</div>
+		<div class="row3_left">
+			<div class="item2" style="font-size:14px;">
+            	1 том, выпуск продолжается <span style="margin-left:20px;"><b>73 глав</b>, перевод продолжается</span>
+			</div>
+		</div>
+		<div class="row3_right">
+			
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Тэги</div>
+		<div class="row3_left">
+			<div class="item4">
+            	<div class="genre"><a href='/tags/боевик'>боевик</a>, <a href='/tags/боевые_искусства'>боевые_искусства</a>, <a href='/tags/в_цвете'>в_цвете</a>, <a href='/tags/веб'>веб</a>, <a href='/tags/героическое_фэнтези'>героическое_фэнтези</a>, <a href='/tags/драма'>драма</a>, <a href='/tags/комедия'>комедия</a>, <a href='/tags/перерождение'>перерождение</a>, <a href='/tags/приключения'>приключения</a>, <a href='/tags/сёнэн'>сёнэн</a>, <a href='/tags/фэнтези'>фэнтези</a>, <a href='/tags/школа'>школа</a></div>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Переводчики</div>
+		<div class="row3_left">
+			<div class="item2">
+            	<h3 class="item2">﻿<a href='/translation/146940/' title='Madmen '>Madmen</a><a href='/translation/' title=' '></a></h3>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row4">
+		<div class="row4_left">
+            <div style="font-size:15px;">
+							<div class="user_link_short" id="ratig-layer-folow-146941" >
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '7','146941','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> <b>Отслеживать</b> новое</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '17','146941','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> Не <b>отслеживать</b></a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-read-146941">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '8','146941','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Хочу прочитать!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '18','146941','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Не хочу прочитать</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-wanted-146941">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '9','146941','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Прочитано!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '19','146941','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Не прочитано!</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-fav-146941">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '10','146941','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Добавить в коллекцию</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '110','146941','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Удалить из коллекции</a>
+                 </span>
+            </div>               
+            </div>
+		</div>
+	</div>
+	<div class="line_break"></div>
+	<div class="tags">    	
+		Тринадцатый ученик великой школы Хуашань, один из трёх величайших фехтовальщиков в мире — благородный клинок цветущей сливы Чхон Мён.Последним ударом клинка он убивает небесного демона, повергшего весь мир в хаос, и погибает на ве...
+    </div>
+</div>	<div class="content_row" title="Cultivation Return on Campus">
+	<div class="manga_images" style="margin-right:-60px;">
+    	<a href="/manga/146933-cultivation-return-on-campus.html"><img src="https://imgcover.manga-chan.me/showfull_retina/uploads/posts/2022-06/thumbs/1654451665_xqouaraxf513_250x350.jpg" style="display: inline;" /></a>
+        <div style="font-size:12px;margin-left:17px;margin-top:6px;">
+        	Плюсиков: <font style="color:green;"><b>8</b></font> <span id="ratig-layer-146933" style="float:left;"><a rel="nofollow" style="text-decoration:none;" href="#" class="fav_plus" onclick="dleRate('6', '146933'); return false;" title="Эта манга мне понравилась!"><img src="/templates/mangachan/images/plusplus.png" style="width:13px;height:13px;" /></a>&nbsp;</span>
+        </div>
+	</div>
+	<div class="manga_row1">
+        <div style="background-color:#f2f4f6;padding-left:5px;margin-left:-5px;padding-top:5px;padding-bottom:8px;margin-right:-22px;margin-top:-1px;">
+            <div style="float:right;font-size:14px;margin-left:5px;margin-top:3px;margin-right:10px;"><a href="/type/Маньхуа" style="color:#006ffa;" rel="nofollow" title="Выбрать только Маньхуа">Маньхуа</a></div>
+	        <h2><a href="/manga/146933-cultivation-return-on-campus.html" title="Cultivation Return on Campus" class="title_link">Cultivation Return on Campus (Возвращение Культиватора в Университет)</a></h2>
+        </div>
+	</div>
+	<div class="manga_row2">
+		<div class="item">Автор</div>
+		<div class="row3_left">
+			<div class="item2">
+				<h3 class="item2">﻿<a href='/mangaka/131168/' title='Island Project манга'>Island Project</a><a href='/mangaka/' title=' манга'></a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Статус (томов)</div>
+		<div class="row3_left">
+			<div class="item2" style="font-size:14px;">
+            	1 том, выпуск продолжается <span style="margin-left:20px;"><b>281 глав</b>, перевод продолжается</span>
+			</div>
+		</div>
+		<div class="row3_right">
+			
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Тэги</div>
+		<div class="row3_left">
+			<div class="item4">
+            	<div class="genre"><a href='/tags/боевик'>боевик</a>, <a href='/tags/боевые_искусства'>боевые_искусства</a>, <a href='/tags/в_цвете'>в_цвете</a>, <a href='/tags/веб'>веб</a>, <a href='/tags/гарем'>гарем</a>, <a href='/tags/комедия'>комедия</a>, <a href='/tags/перерождение'>перерождение</a>, <a href='/tags/приключения'>приключения</a>, <a href='/tags/романтика'>романтика</a>, <a href='/tags/сверхъестественное'>сверхъестественное</a>, <a href='/tags/фэнтези'>фэнтези</a>, <a href='/tags/школа'>школа</a></div>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Переводчики</div>
+		<div class="row3_left">
+			<div class="item2">
+            	<h3 class="item2">﻿<a href='/translation/113436/' title='Squid.TEAM '>Squid.TEAM</a>, <a href='/translation/121584/' title='Yggdrasil Scans '>Yggdrasil Scans</a>, <a href='/translation/134032/' title='FoxDertSix '>FoxDertSix</a>, <a href='/translation/146931/' title='Fudzi_team '>Fudzi_team</a>, <a href='/translation/146932/' title='talanta net '>talanta net</a><a href='/translation/' title=' '></a></h3>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row4">
+		<div class="row4_left">
+            <div style="font-size:15px;">
+							<div class="user_link_short" id="ratig-layer-folow-146933" >
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '7','146933','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> <b>Отслеживать</b> новое</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '17','146933','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> Не <b>отслеживать</b></a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-read-146933">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '8','146933','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Хочу прочитать!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '18','146933','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Не хочу прочитать</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-wanted-146933">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '9','146933','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Прочитано!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '19','146933','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Не прочитано!</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-fav-146933">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '10','146933','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Добавить в коллекцию</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '110','146933','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Удалить из коллекции</a>
+                 </span>
+            </div>               
+            </div>
+		</div>
+	</div>
+	<div class="line_break"></div>
+	<div class="tags">    	
+		Возвращение культиватора в университет, что же произойдёт дальше. Вы узнаете позже...
+    </div>
+</div>	<div class="content_row" title="The Strongest in Another World with Assassination Skills - I, Who Has Mastered Alchemy and Assassination, Dominate the World from Behind">
+	<div class="manga_images" style="margin-right:-60px;">
+    	<a href="/manga/146930-the-strongest-in-another-world-with-assassination-skills-i-who-has-mastered-alchemy-and-assassination-dominate-the-world-from-behind.html"><img src="https://imgcover.manga-chan.me/showfull_retina/uploads/posts/2022-06/thumbs/1654450935_nlwprrytjqfb_250x350.jpg" style="display: inline;" /></a>
+        <div style="font-size:12px;margin-left:17px;margin-top:6px;">
+        	Плюсиков: <font style="color:green;"><b>10</b></font> <span id="ratig-layer-146930" style="float:left;"><a rel="nofollow" style="text-decoration:none;" href="#" class="fav_plus" onclick="dleRate('6', '146930'); return false;" title="Эта манга мне понравилась!"><img src="/templates/mangachan/images/plusplus.png" style="width:13px;height:13px;" /></a>&nbsp;</span>
+        </div>
+	</div>
+	<div class="manga_row1">
+        <div style="background-color:#f2f4f6;padding-left:5px;margin-left:-5px;padding-top:5px;padding-bottom:8px;margin-right:-22px;margin-top:-1px;">
+            <div style="float:right;font-size:14px;margin-left:5px;margin-top:3px;margin-right:10px;"><a href="/type/Манга" style="color:#006ffa;" rel="nofollow" title="Выбрать только Манга">Манга</a></div>
+	        <h2><a href="/manga/146930-the-strongest-in-another-world-with-assassination-skills-i-who-has-mastered-alchemy-and-assassination-dominate-the-world-from-behind.html" title="The Strongest in Another World with Assassination Skills - I, Who Has Mastered Alchemy and Assassination, Dominate the World from Behind" class="title_link">The Strongest in Another World with Assassination Skills - I, Who Has Mastered Alchemy and Assassination, Dominate the World from Behind (Навыки ассасина сделают вас сильнейшим в другом мире. Я тот, кто овладел алхимией и навыками убийства, буду править миром из тени!)</a></h2>
+        </div>
+	</div>
+	<div class="manga_row2">
+		<div class="item">Автор</div>
+		<div class="row3_left">
+			<div class="item2">
+				<h3 class="item2">﻿<a href='/mangaka/73617/' title='SHINKOU Shotou манга'>SHINKOU Shotou</a>, <a href='/mangaka/146929/' title='COIN440 манга'>COIN440</a><a href='/mangaka/' title=' манга'></a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Статус (томов)</div>
+		<div class="row3_left">
+			<div class="item2" style="font-size:14px;">
+            	2 тома, выпуск продолжается <span style="margin-left:20px;"><b>51 глав</b>, перевод продолжается</span>
+			</div>
+		</div>
+		<div class="row3_right">
+			
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Тэги</div>
+		<div class="row3_left">
+			<div class="item4">
+            	<div class="genre"><a href='/tags/боевик'>боевик</a>, <a href='/tags/боевые_искусства'>боевые_искусства</a>, <a href='/tags/веб'>веб</a>, <a href='/tags/игра'>игра</a>, <a href='/tags/исекай'>исекай</a>, <a href='/tags/история'>история</a>, <a href='/tags/комедия'>комедия</a>, <a href='/tags/приключения'>приключения</a>, <a href='/tags/романтика'>романтика</a>, <a href='/tags/фэнтези'>фэнтези</a></div>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Переводчики</div>
+		<div class="row3_left">
+			<div class="item2">
+            	<h3 class="item2">﻿<a href='/translation/133331/' title='tfoxs '>tfoxs</a><a href='/translation/' title=' '></a></h3>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row4">
+		<div class="row4_left">
+            <div style="font-size:15px;">
+							<div class="user_link_short" id="ratig-layer-folow-146930" >
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '7','146930','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> <b>Отслеживать</b> новое</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '17','146930','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> Не <b>отслеживать</b></a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-read-146930">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '8','146930','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Хочу прочитать!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '18','146930','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Не хочу прочитать</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-wanted-146930">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '9','146930','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Прочитано!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '19','146930','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Не прочитано!</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-fav-146930">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '10','146930','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Добавить в коллекцию</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '110','146930','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Удалить из коллекции</a>
+                 </span>
+            </div>               
+            </div>
+		</div>
+	</div>
+	<div class="line_break"></div>
+	<div class="tags">    	
+		Райт – ассасин с 99.9% вероятностью успеха. Однажды с ним связывается таинственный заказчик, которым оказывается богиня Мидзес, силы которой постепенно увядают после поражения в войне.Мидзес заказывает убийство Бога Мэсура Зууля.С...
+    </div>
+</div>	<div class="content_row" title="A new life for a killer of the gods">
+	<div class="manga_images" style="margin-right:-60px;">
+    	<a href="/manga/146795-a-new-life-for-a-killer-of-the-gods.html"><img src="https://imgcover.manga-chan.me/showfull_retina/uploads/posts/2022-05/thumbs/1654022471_5vkt2r08c42a_250x350.jpg" style="display: inline;" /></a>
+        <div style="font-size:12px;margin-left:17px;margin-top:6px;">
+        	Плюсиков: <font style="color:green;"><b>16</b></font> <span id="ratig-layer-146795" style="float:left;"><a rel="nofollow" style="text-decoration:none;" href="#" class="fav_plus" onclick="dleRate('6', '146795'); return false;" title="Эта манга мне понравилась!"><img src="/templates/mangachan/images/plusplus.png" style="width:13px;height:13px;" /></a>&nbsp;</span>
+        </div>
+	</div>
+	<div class="manga_row1">
+        <div style="background-color:#f2f4f6;padding-left:5px;margin-left:-5px;padding-top:5px;padding-bottom:8px;margin-right:-22px;margin-top:-1px;">
+            <div style="float:right;font-size:14px;margin-left:5px;margin-top:3px;margin-right:10px;"><a href="/type/Манхва" style="color:#006ffa;" rel="nofollow" title="Выбрать только Манхва">Манхва</a></div>
+	        <h2><a href="/manga/146795-a-new-life-for-a-killer-of-the-gods.html" title="A new life for a killer of the gods" class="title_link">A new life for a killer of the gods (Новая жизнь убийцы богов)</a></h2>
+        </div>
+	</div>
+	<div class="manga_row2">
+		<div class="item">Автор</div>
+		<div class="row3_left">
+			<div class="item2">
+				<h3 class="item2">﻿<a href='/mangaka/146794/' title='Blue-Deep манга'>Blue-Deep</a><a href='/mangaka/' title=' манга'></a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Статус (томов)</div>
+		<div class="row3_left">
+			<div class="item2" style="font-size:14px;">
+            	1 том, выпуск продолжается <span style="margin-left:20px;"><b>60 глав</b>, перевод продолжается</span>
+			</div>
+		</div>
+		<div class="row3_right">
+			
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Тэги</div>
+		<div class="row3_left">
+			<div class="item4">
+            	<div class="genre"><a href='/tags/боевик'>боевик</a>, <a href='/tags/боевые_искусства'>боевые_искусства</a>, <a href='/tags/в_цвете'>в_цвете</a>, <a href='/tags/вампиры'>вампиры</a>, <a href='/tags/веб'>веб</a>, <a href='/tags/драма'>драма</a>, <a href='/tags/мистика'>мистика</a>, <a href='/tags/постапокалиптика'>постапокалиптика</a>, <a href='/tags/приключения'>приключения</a>, <a href='/tags/психология'>психология</a>, <a href='/tags/сверхъестественное'>сверхъестественное</a>, <a href='/tags/сёнэн'>сёнэн</a>, <a href='/tags/трагедия'>трагедия</a>, <a href='/tags/ужасы'>ужасы</a>, <a href='/tags/фэнтези'>фэнтези</a></div>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Переводчики</div>
+		<div class="row3_left">
+			<div class="item2">
+            	<h3 class="item2">﻿<a href='/translation/113436/' title='Squid.TEAM '>Squid.TEAM</a>, <a href='/translation/140199/' title='Waifu '>Waifu</a><a href='/translation/' title=' '></a></h3>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row4">
+		<div class="row4_left">
+            <div style="font-size:15px;">
+							<div class="user_link_short" id="ratig-layer-folow-146795" >
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '7','146795','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> <b>Отслеживать</b> новое</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '17','146795','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> Не <b>отслеживать</b></a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-read-146795">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '8','146795','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Хочу прочитать!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '18','146795','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Не хочу прочитать</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-wanted-146795">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '9','146795','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Прочитано!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '19','146795','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Не прочитано!</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-fav-146795">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '10','146795','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Добавить в коллекцию</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '110','146795','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Удалить из коллекции</a>
+                 </span>
+            </div>               
+            </div>
+		</div>
+	</div>
+	<div class="line_break"></div>
+	<div class="tags">    	
+		Возвращение самой желанной фантазии человечества."Уж если противные боги дали мне этот шанс, я воспользуюсь им. Хоть я и хочу умереть, но я должен убить их."Джефир — последний оставшийся в живых человек. Битва с демонами закончи...
+    </div>
+</div>	<div class="content_row" title="Hero Has Returned">
+	<div class="manga_images" style="margin-right:-60px;">
+    	<a href="/manga/146779-hero-has-returned.html"><img src="https://imgcover.manga-chan.me/showfull_retina/uploads/posts/2022-05/thumbs/1654020726_avhapx2qtiwx_250x350.jpg" style="display: inline;" /></a>
+        <div style="font-size:12px;margin-left:17px;margin-top:6px;">
+        	Плюсиков: <font style="color:green;"><b>16</b></font> <span id="ratig-layer-146779" style="float:left;"><a rel="nofollow" style="text-decoration:none;" href="#" class="fav_plus" onclick="dleRate('6', '146779'); return false;" title="Эта манга мне понравилась!"><img src="/templates/mangachan/images/plusplus.png" style="width:13px;height:13px;" /></a>&nbsp;</span>
+        </div>
+	</div>
+	<div class="manga_row1">
+        <div style="background-color:#f2f4f6;padding-left:5px;margin-left:-5px;padding-top:5px;padding-bottom:8px;margin-right:-22px;margin-top:-1px;">
+            <div style="float:right;font-size:14px;margin-left:5px;margin-top:3px;margin-right:10px;"><a href="/type/Манхва" style="color:#006ffa;" rel="nofollow" title="Выбрать только Манхва">Манхва</a></div>
+	        <h2><a href="/manga/146779-hero-has-returned.html" title="Hero Has Returned" class="title_link">Hero Has Returned (Герой вернулся)</a></h2>
+        </div>
+	</div>
+	<div class="manga_row2">
+		<div class="item">Автор</div>
+		<div class="row3_left">
+			<div class="item2">
+				<h3 class="item2">﻿<a href='/mangaka/59021/' title='Narak манга'>Narak</a>, <a href='/mangaka/146778/' title='Fungback манга'>Fungback</a><a href='/mangaka/' title=' манга'></a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Статус (томов)</div>
+		<div class="row3_left">
+			<div class="item2" style="font-size:14px;">
+            	1 том, выпуск продолжается <span style="margin-left:20px;"><b>47 глав</b>, перевод продолжается</span>
+			</div>
+		</div>
+		<div class="row3_right">
+			
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Тэги</div>
+		<div class="row3_left">
+			<div class="item4">
+            	<div class="genre"><a href='/tags/18_плюс'>18_плюс</a>, <a href='/tags/боевик'>боевик</a>, <a href='/tags/боевые_искусства'>боевые_искусства</a>, <a href='/tags/в_цвете'>в_цвете</a>, <a href='/tags/веб'>веб</a>, <a href='/tags/исекай'>исекай</a>, <a href='/tags/магия'>магия</a>, <a href='/tags/перерождение'>перерождение</a>, <a href='/tags/приключения'>приключения</a>, <a href='/tags/психология'>психология</a>, <a href='/tags/сверхъестественное'>сверхъестественное</a>, <a href='/tags/сёнэн'>сёнэн</a>, <a href='/tags/трагедия'>трагедия</a>, <a href='/tags/триллер'>триллер</a>, <a href='/tags/фэнтези'>фэнтези</a></div>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3">
+		<div class="item">Переводчики</div>
+		<div class="row3_left">
+			<div class="item2">
+            	<h3 class="item2">﻿<a href='/translation/14108/' title='Arashi '>Arashi</a><a href='/translation/' title=' '></a></h3>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row4">
+		<div class="row4_left">
+            <div style="font-size:15px;">
+							<div class="user_link_short" id="ratig-layer-folow-146779" >
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '7','146779','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> <b>Отслеживать</b> новое</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '17','146779','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> Не <b>отслеживать</b></a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-read-146779">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '8','146779','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Хочу прочитать!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '18','146779','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Не хочу прочитать</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-wanted-146779">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '9','146779','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Прочитано!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '19','146779','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Не прочитано!</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-fav-146779">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '10','146779','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Добавить в коллекцию</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '110','146779','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Удалить из коллекции</a>
+                 </span>
+            </div>               
+            </div>
+		</div>
+	</div>
+	<div class="line_break"></div>
+	<div class="tags">    	
+		Пак Чон Су, герой, что спас мир только по одной причине - вернуться и отомстить Ким Мин Су.Он спасся сам, но не смог спасти тех, кто был всем его миром. Пак Чон Су намерен уничтожить того, кто сотворил с ним это.История без счастл...
+    </div>
+</div>	
+		
+        
+        
+        
+		        
+		        
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div id="side">
+	
+	
+    ﻿
+<div style=''>
+	<div class="sidetags" style="clear:both;width:100%">
+
+
+
+<div style='margin-bottom:4px;font-size:14px;font-weight:bold;'>Статуc</div>
+<div class="only">
+・ <a href="/tags/all_done/боевые_искусства">Перевод завершен</a><br />
+・ <a href="/tags/end/боевые_искусства">Выпуск завершен</a><br />
+・ <a href="/tags/ongoing/боевые_искусства">Онгоинг</a><br />
+・ <a href="/tags/new_ch/боевые_искусства">Новые главы</a><br />
+・ <a href="/tags/without_ch/боевые_искусства">Без глав</a><br />
+・ <a href="/tags/боевые_искусства">Весь каталог</a><br />
+<br />
+</div>
+
+
+    	  	
+	    	<div style='margin-bottom:4px;font-size:14px;font-weight:bold;'><a style='color:#333333;' href='/tags/'>Тэги</a></div>
+        
+
+		<ul style='font-size:14px;'>
+			            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+18_плюс'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-18_плюс' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/18_плюс'>18 плюс</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+bdsm'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-bdsm' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/bdsm'>bdsm</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+арт'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-арт' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/арт'>арт</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+боевик'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-боевик' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/боевик'>боевик</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства'  title='Добавить к поиску'>&nbsp;&nbsp;</a>
+                <a href='/tags/-боевые_искусства' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/боевые_искусства'>боевые искусства</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+вампиры'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-вампиры' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/вампиры'>вампиры</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+веб'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-веб' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/веб'>веб</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+гарем'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-гарем' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/гарем'>гарем</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+гендерная_интрига'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-гендерная_интрига' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/гендерная_интрига'>гендерная интрига</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+героическое_фэнтези'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-героическое_фэнтези' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/героическое_фэнтези'>героическое фэнтези</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+детектив'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-детектив' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/детектив'>детектив</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+дзёсэй'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-дзёсэй' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/дзёсэй'>дзёсэй</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+додзинси'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-додзинси' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/додзинси'>додзинси</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+драма'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-драма' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/драма'>драма</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+игра'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-игра' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/игра'>игра</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+инцест'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-инцест' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/инцест'>инцест</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+искусство'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-искусство' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/искусство'>искусство</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+история'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-история' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/история'>история</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+киберпанк'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-киберпанк' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/киберпанк'>киберпанк</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+кодомо'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-кодомо' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/кодомо'>кодомо</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+комедия'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-комедия' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/комедия'>комедия</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+литРПГ'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-литРПГ' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/литРПГ'>литРПГ</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+махо-сёдзё'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-махо-сёдзё' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/махо-сёдзё'>махо-сёдзё</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+меха'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-меха' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/меха'>меха</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+мистика'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-мистика' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/мистика'>мистика</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+музыка'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-музыка' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/музыка'>музыка</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+научная_фантастика'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-научная_фантастика' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/научная_фантастика'>научная фантастика</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+омегаверс'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-омегаверс' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/омегаверс'>омегаверс</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+повседневность'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-повседневность' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/повседневность'>повседневность</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+постапокалиптика'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-постапокалиптика' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/постапокалиптика'>постапокалиптика</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+приключения'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-приключения' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/приключения'>приключения</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+психология'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-психология' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/психология'>психология</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+романтика'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-романтика' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/романтика'>романтика</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+самурайский_боевик'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-самурайский_боевик' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/самурайский_боевик'>самурайский боевик</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+сборник'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-сборник' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/сборник'>сборник</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+сверхъестественное'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-сверхъестественное' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/сверхъестественное'>сверхъестественное</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+сказка'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-сказка' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/сказка'>сказка</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+спорт'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-спорт' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/спорт'>спорт</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+супергерои'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-супергерои' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/супергерои'>супергерои</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+сэйнэн'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-сэйнэн' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/сэйнэн'>сэйнэн</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+сёдзё'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-сёдзё' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/сёдзё'>сёдзё</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+сёдзё-ай'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-сёдзё-ай' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/сёдзё-ай'>сёдзё-ай</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+сёнэн'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-сёнэн' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/сёнэн'>сёнэн</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+сёнэн-ай'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-сёнэн-ай' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/сёнэн-ай'>сёнэн-ай</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+танцы'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-танцы' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/танцы'>танцы</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+трагедия'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-трагедия' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/трагедия'>трагедия</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+триллер'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-триллер' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/триллер'>триллер</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+ужасы'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-ужасы' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/ужасы'>ужасы</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+фантастика'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-фантастика' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/фантастика'>фантастика</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+фурри'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-фурри' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/фурри'>фурри</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+фэнтези'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-фэнтези' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/фэнтези'>фэнтези</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+школа'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-школа' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/школа'>школа</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+эротика'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-эротика' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/эротика'>эротика</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+юри'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-юри' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/юри'>юри</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства+ёнкома'  title='Добавить к поиску'>+</a>
+                <a href='/tags/боевые_искусства+-ёнкома' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/ёнкома'>ёнкома</a>
+            </li>   
+        </ul>
+    	    
+    </div>
+</div>
+
+
+</div>
+
+
+<div id="pagination" style=" width: 925px; padding: 5px;">
+	
+	<b>1014 Результатов</b>
+	<a href='?offset=20'>Вперед</a>	
+
+	<br/><br/>
+
+    
+    
+	
+    <span style="line-height: 28px;">
+    <b>1</b> &nbsp;<a href='?offset=20'>2</a> &nbsp;<a href='?offset=40'>3</a> &nbsp;<a href='?offset=60'>4</a> &nbsp;<a href='?offset=80'>5</a> &nbsp;<a href='?offset=100'>6</a> &nbsp;<a href='?offset=120'>7</a> &nbsp;<a href='?offset=140'>8</a> &nbsp;<a href='?offset=160'>9</a> &nbsp;<a href='?offset=180'>10</a> &nbsp;<a href='?offset=200'>11</a> &nbsp;<a href='?offset=220'>12</a> &nbsp;<a href='?offset=240'>13</a> &nbsp;<a href='?offset=260'>14</a> &nbsp;<a href='?offset=280'>15</a> &nbsp;<a href='?offset=300'>16</a> &nbsp;<a href='?offset=320'>17</a> &nbsp;<a href='?offset=340'>18</a> &nbsp;<a href='?offset=360'>19</a> &nbsp;<a href='?offset=380'>20</a> &nbsp;<a href='?offset=400'>21</a> &nbsp;<a href='?offset=420'>22</a> &nbsp;<a href='?offset=440'>23</a> &nbsp;<a href='?offset=460'>24</a> &nbsp;<a href='?offset=480'>25</a> &nbsp;<a href='?offset=500'>26</a> &nbsp;<a href='?offset=520'>27</a> &nbsp;<a href='?offset=540'>28</a> &nbsp;<a href='?offset=560'>29</a> &nbsp;<a href='?offset=580'>30</a> &nbsp;<a href='?offset=600'>31</a> &nbsp;<a href='?offset=620'>32</a> &nbsp;<a href='?offset=640'>33</a> &nbsp;<a href='?offset=660'>34</a> &nbsp;<a href='?offset=680'>35</a> &nbsp;<a href='?offset=700'>36</a> &nbsp;<a href='?offset=720'>37</a> &nbsp;<a href='?offset=740'>38</a> &nbsp;<a href='?offset=760'>39</a> &nbsp;<a href='?offset=780'>40</a> &nbsp;<a href='?offset=800'>41</a> &nbsp;<a href='?offset=820'>42</a> &nbsp;<a href='?offset=840'>43</a> &nbsp;<a href='?offset=860'>44</a> &nbsp;<a href='?offset=880'>45</a> &nbsp;<a href='?offset=900'>46</a> &nbsp;<a href='?offset=920'>47</a> &nbsp;<a href='?offset=940'>48</a> &nbsp;<a href='?offset=960'>49</a> &nbsp;<a href='?offset=980'>50</a> &nbsp;<a href='?offset=1000'>51</a> &nbsp;
+    </span>
+	
+    <a href='?offset=20'>></a>
+    <a href='?offset=1000'>>></a>
+	</div>	
+</div>
+<br style="clear:both" />
+
+
+<div style="float:left;background-color:#FFF;border-top-left-radius:5px;border-top-right-radius:5px;margin-bottom:-10px;padding-bottom:10px;border:1px solid #d6dee5;padding-top:10px;margin-top:-15px;">
+
+
+
+
+
+
+
+
+<div id="footer" style="width:100%;background:#0096db;float:left;height:22px;	margin:0 auto 10px auto !important;">
+
+
+	<div id="footer_left"></div>
+    <div id="footer_right">
+<!--    	<a rel='nofollow' href="http://twitter.com/ru_mangachan" target="_blank" style="margin-right:5px;"><img src="/templates/mangachan/images/icon-twi.png" /></a> -->
+    </div>
+</div>
+
+<div id="bottom_ads">
+		
+</div>
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div style='visibility:hidden;'>
+<!--LiveInternet counter--><script type="text/javascript">document.write("<a href='//www.liveinternet.ru/click' target=_blank><img src='//counter.yadro.ru/hit?t26.6;r" + escape(document.referrer) + ((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)) + ";u" + escape(document.URL) + ";" + Math.random() + "' border=0 width=88 height=15 alt='' title='LiveInternet: показано число посетителей за сегодня'><\/a>")</script><!--/LiveInternet-->
+</div>
+
+	</body>
+</html>
+<div style='font-size: 14px;'>70.609092712402</div>

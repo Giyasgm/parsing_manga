@@ -1,0 +1,1005 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Манга-тян - манга онлайн бесплатно</title>
+<meta name="description" content="Манга-тян - манга на русском. Большой качественный каталог. У нас можно читать мангу онлайн бесплатно" />
+<meta name="keywords" content="манга, на русском, скачать, бесплатно" />
+<meta name="robots" content="all" />
+<script type="text/javascript" src="/engine/classes/js/jquery.js"></script>
+<script type="text/javascript" src="/engine/classes/js/dialog.js"></script>
+<script type="text/javascript" src="/engine/classes/js/effects.js"></script>
+<script type="text/javascript" src="/engine/classes/js/menu.js"></script>
+<script type="text/javascript" src="/engine/classes/js/dle_ajax.js"></script>
+<script type="text/javascript" src="/engine/classes/js/js_edit.js"></script>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="/templates/mangachan/css/engine4.css" />
+<script language="javascript" type="text/javascript">
+<!--
+function bookmarkthis(title,url) {
+  if (window.sidebar) { // Firefox
+     window.sidebar.addPanel(title, url, "");
+  } else if (document.all) { // IE
+     window.external.AddFavorite(url, title);
+  } else if (window.opera && window.print) { // Opera
+     var elem = document.createElement('a');
+     elem.setAttribute('href',url);
+     elem.setAttribute('title',title);
+     elem.setAttribute('rel','sidebar');
+     elem.click();
+  }
+}
+//-->
+</script>
+
+<script>
+/*
+    if(!~document.location.href.indexOf('/manga' + 'chan.me')) {
+        document.location.href = 'http://manga' + 'chan.me' + window.location.pathname;
+        window.location = 'http://manga' + 'chan.me' + window.location.pathname;
+    }
+*/
+</script>
+
+<script type="text/javascript" src="/templates/mangachan/js/base.js"></script>
+
+
+	<link rel="stylesheet" type="text/css" href="/templates/mangachan/css/style.css" />	
+
+</head>
+
+
+
+
+
+
+	<body id="wrap">
+	<div id="loading-layer" style="display:none"><div id="loading-layer-text">Загрузка. Пожалуйста, подождите...</div></div>
+<script language="javascript" type="text/javascript">
+<!--
+var dle_root       = '/';
+var dle_admin      = '';
+var dle_login_hash = '';
+var dle_group      = 5;
+var dle_skin       = 'mangachan';
+var dle_wysiwyg    = 'no';
+var quick_wysiwyg  = '0';
+var dle_act_lang   = ["Да", "Нет", "Ввод", "Отмена"];
+var menu_short     = 'Быстрое редактирование';
+var menu_full      = 'Полное редактирование';
+var menu_profile   = 'Просмотр профиля';
+var menu_send      = 'Отправить сообщение';
+var menu_uedit     = 'Админцентр';
+var dle_info       = 'Информация';
+var dle_confirm    = 'Подтверждение';
+var dle_prompt     = 'Ввод информации';
+var dle_req_field  = 'Заполните все необходимые поля';
+var dle_del_agree  = 'Вы действительно хотите удалить? Данное действие невозможно будет отменить';
+var dle_del_news   = 'Удалить новость';
+var allow_dle_delete_news   = false;
+var dle_search_delay   = false;
+var dle_search_value   = '';
+$(function(){
+	FastSearch();
+});//-->
+</script>
+	
+
+<style>
+    .news_wrap img {
+        max-width: 100%;
+    }
+</style>
+
+<script type="text/javascript" src="/templates/mangachan/js/hover.js"></script>
+
+<div id="top">
+	<div id="top_user">
+						   <div style='margin-top:-1px;'>
+               <form method="post" action=''>
+               	 <input name="login" type="hidden" id="login" value="submit" />
+	 			 <input name="login_name" type="text" class="a_field" style="width:70px;height:12px;" placeholder="Логин" />
+  				 <input name="login_password" type="password" class="a_field" style="width:70px;height:12px;" placeholder="Пароль" onclick="this.value='';" />
+				<input onclick="submit();" name="image" type="submit" style="border:0px solid red;" value="Вход" />
+				 <a class="bordr" href="https://manga-chan.me/index.php?do=lostpassword" title="Забыли пароль?">?</a>
+				 <a href="https://manga-chan.me/index.php?do=register">Быстрая регистрация</a>
+               </form>
+               </div>
+		</div>
+	<div id="top_site">
+		<a href="/contact" title="Связатся с администрацией Манга-тян!">Контакты</a>
+	</div>
+	<div id="top_search" style="width:324px;">
+            <form method="get" action='/' id="search" style="width:324px;">
+                <input type="hidden" name="do" value="search" />
+                <input type="hidden" name="subaction" value="search" />
+       			<input id='story' name='story' type='text' class='query' style="width:302px;" placeholder='Ищем мангу, серию, автора...' />
+            </form>
+	</div>
+	<div id="top_rss" style="width:29px;">
+		<img alt="Submit Search" id="search_button" onclick="javascript:getElementById('search').submit();" onmouseover="javascript:this.style.background='#6396be';" onmouseout="javascript:this.style.background='#0086bb';" src="/templates/mangachan/images/search.gif" />
+	</div>
+</div>
+
+<div><a href="/" ><img src="/templates/mangachan/images/header3.jpg" /></a></div>
+<!--<div id="top_banner"><a href="/" ><img src="/templates/mangachan/images/header3.jpg" /></a></div>-->
+
+<div id="navigator">
+	<ul class="main_set">
+		<li class="r_border">
+			<div class="cir"><img src='/templates/mangachan/images/white_cir.png' /></div><a href="/" >Главная</a>
+		</li>
+		<li class="r_border">
+			<div class="with_arrow">
+			<div class="cir"><img src='/templates/mangachan/images/white_cir.png' /></div><a href="/catalog" id="manga_link" title="манга бесплатно">Каталог Манги</a><a href="" class="global_menu_arrow" onclick="return optional_drop_down_menu(this, ge('manga_link'), ge('manga_drop'), event);">&nbsp;&nbsp;&nbsp;</a>
+			</div>
+			<div id="manga_drop" class="navigator_menu" style="display: none">
+				<ul>
+					<li><a href="/manga/new">Новинки!</a></li>
+					<li class="menu_divider">&nbsp;</li>
+					<li><a href="/catalog" ><b>по...</b> алфавиту</a></li>
+					<li><a href="/mangaka/"><b>по...</b> авторам</a></li>
+					<li><a href="/translation/"><b>по...</b> переводчикам</a></li>
+					<li><a href="/sortch"><b>по...</b> кол-ву глав</a></li>
+					<li><a href="/mostfavorites" title="Самая популярная манга"><b>по...</b> популярности</a></li>
+					<li class="menu_divider">&nbsp;</li>
+					<li><a href="/manga/random" title="случайная манга">Случайная манга</a></li>
+				</ul>
+			</div>
+		</li>
+		<li class="r_border">
+			<div class="cir"><img src='/templates/mangachan/images/white_cir.png' /></div><a href="/manga/random">Случайная манга</a>
+		</li>
+		<li class="r_border">
+			<div class="with_arrow">
+			<div class="cir"><img src='/templates/mangachan/images/white_cir.png' /></div><a rel='nofollow' TARGET='_blank' href="https://anime-chan.me/" id="forums_link">Аниме-тян</a>
+			</div>
+		</li>
+		<li class="r_border">
+			<div class="with_arrow">
+			<div class="cir"><img src='/templates/mangachan/images/white_cir.png' /></div><a rel='nofollow' TARGET='_blank'  href="http://yaoi-chan.me/" id="forums_link">Яой манга</a>
+			</div>
+		</li>
+		<li class="r_border">
+			<div class="with_arrow">
+			<div class="cir"><img src='/templates/mangachan/images/white_cir.png' /></div><a rel='nofollow' TARGET='_blank'  href="http://y.hchan.live/" id="forums_link">Хентай манга</a>
+			</div>
+		</li>
+		<li class="r_border">
+			<div class="with_arrow"  style='margin-right:-5px;'>
+			<div class="cir"><img src='/templates/mangachan/images/white_cir.png' /></div><a rel='nofollow' href="/faq" id="forums_link">FAQ</a>
+			</div>
+		</li>
+	</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<div id="content" style="overflow:hidden;">
+
+        
+        	<div class="main_fon">
+	            <div class="area_right" style="border:none;margin-left:0px;width:100%;margin-bottom:-15px;">
+                	<div class="area_rightSpace"><span style="font-weight:bold;color:#000000;">Манга недели</span></div>
+	            	<ul class="area_rightNews linkStyle">	   
+				        ﻿<div class="content_row_week" title="The Unpopular Mangaka And The Helpful Ghost">
+	<div class="manga_images_week" style="margin-right:-60px;">
+    	<a href="/manga/139860-the-unpopular-mangaka-and-the-helpful-ghost.html"><img src="https://manga-chan.me/showfull_retina/uploads/posts/2021-09/thumbs/1632468409_abyx66bdpa6q_250x350.jpg" style="display: inline;" /></a>
+	</div>
+	<div class="manga_row1_week">
+        <div style="background-color:#f2f4f6;padding-left:5px;margin-left:-5px;padding-top:5px;padding-bottom:8px;margin-right:-22px;margin-top:-1px;margin-left:0px;">
+            <div style="float:right;font-size:14px;margin-left:5px;margin-top:1px;margin-right:8px;"><a href="/type/Манга" style="color:#006ffa;font-weight:normal;" rel="nofollow" title="Выбрать только Манга">Манга</a></div>
+	        <h2><a href="/manga/139860-the-unpopular-mangaka-and-the-helpful-ghost.html" title="The Unpopular Mangaka And The Helpful Ghost" class="title_link">The Unpopular Mangaka And The Helpful Ghost (Непопулярный мангака и полезное привидение)</a></h2>
+        </div>
+	</div>
+	<div class="manga_row2_week">
+		<div class="item_week">Автор</div>
+		<div class="row3_left_week">
+			<div class="item2_week">
+				<h3 class="item2_week">﻿<a href='/mangaka/124705/' title='Mito манга'>Mito</a>, <a href='/mangaka/139877/' title='Mito (Sannohe) манга'>Mito (Sannohe)</a><a href='/mangaka/' title=' манга'></a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3_week">
+		<div class="item_week">Статус (томов)</div>
+		<div class="row3_left_week">
+			<div class="item2_week" style="font-size:13px;width:500px;">
+            	2 тома, выпуск завершен <span style="margin-left:10px;font-size:13px;"><b>44 глав</b>, перевод продолжается</span>
+			</div>
+		</div>
+		<div class="row3_right_week">
+			
+		</div>
+	</div>
+	<div class="manga_row3_week">
+		<div class="item_week">Тэги</div>
+		<div class="row3_left_week">
+			<div class="item2_week">
+            	<div class="genre" ><a href='/tags/веб'>веб</a>, <a href='/tags/комедия'>комедия</a>, <a href='/tags/повседневность'>повседневность</a>, <a href='/tags/сверхъестественное'>сверхъестественное</a>, <a href='/tags/ужасы'>ужасы</a></div>	 
+			</div>
+		</div>
+	</div>
+	<div class="manga_row3_week">
+		<div class="item_week">Переводчики</div>
+		<div class="row3_left_week">
+			<div class="item2_week">
+            	<h3 class="item2_week">﻿<a href='/translation/119782/' title='Dead Inside Team '>Dead Inside Team</a>, <a href='/translation/129685/' title='Foxes club '>Foxes club</a>, <a href='/translation/135584/' title='Yabai '>Yabai</a>, <a href='/translation/148104/' title='Last Exile '>Last Exile</a><a href='/translation/' title=' '></a></h3>	 
+			</div>
+		</div>
+	</div>
+	<div class="line_break_week"></div>
+	<div class="tags_week">    	
+		Жизнь в роли мангаки-неудачника, ни когда не обещала быть легкой, но Сенаи Яро — непопулярному автору сёдзё не повезло куда сильнее, ведь в его доме поселился призрак, а срок сдачи работы неумолимо пр...
+    </div>
+    <div style="" class="user_link_week">
+	    <center>			<div class="user_link_short" id="ratig-layer-folow-139860" >
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '7','139860','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> <b>Отслеживать</b> новое</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('folow', '17','139860','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_folow.png" /> Не <b>отслеживать</b></a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-read-139860">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '8','139860','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Хочу прочитать!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('read', '18','139860','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_read.png" /> Не хочу прочитать</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-wanted-139860">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '9','139860','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Прочитано!</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('wanted', '19','139860','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_wanted.png" /> Не прочитано!</a>
+                 </span>
+            </div>            
+			<div class="user_link_short" id="ratig-layer-fav-139860">
+            	<span style=""><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '10','139860','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Добавить в коллекцию</a>
+                 </span>
+            	<span style="display:none;"><a rel="nofollow" href="#" class="fav_plus" onclick="megaRate('fav', '110','139860','hc_short');return false;" title="">
+                	<img src="/templates/mangachan/images/button_fav.png" /> Удалить из коллекции</a>
+                 </span>
+            </div>   </center>
+    </div>
+</div>	   
+	                </ul>
+                </div>
+            </div>
+
+        	
+
+        	<div class="main_fon">
+	        	
+<div class="baseTop1">
+    <div class="baseTitle">
+        <div style="float:left;width:400px;text-align:left;"><a href="https://manga-chan.me/news/129336-samyy-novyy-adres-hentay-tyan.html">Самый новый адрес Хентай-тян</a> </div>
+        <div style="float:right;">16-07-2021, 20:59 | <a href="https://manga-chan.me/news/129336-samyy-novyy-adres-hentay-tyan.html#comment">комментарии</a> | <a href="https://manga-chan.me/news/129336-samyy-novyy-adres-hentay-tyan.html#comment">283</a></div>
+    </div>
+    <div class="clear"></div>
+    <div class="news_wrap">
+        <div class="entry">
+            Новый адрес сайта (автологининг со старого адреса, впн не требуется)<br /><br />Временный адрес: <a rel='nofollow' href="http://y.hchan.live/" target="_blank">http://y.hchan.live/</a><br /><br />Или этот <a rel='nofollow' href="https://xxxxx.hentaichan.live/" >https://xxxxx.hentaichan.live/</a><br /><br />UPD: обновлен адрес (30 сентября 2022)
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+
+
+
+
+
+
+
+
+                        
+                <div style='border: 1px solid #258fb8; padding: 8px; margin-top: 10px; margin-bottom: 10px;'>
+    	        	
+<div class="baseTop1">
+    <div class="baseTitle">
+        <div style="float:left;width:400px;text-align:left;"><a href="https://manga-chan.me/rotations/121412-komanda-animaxa-ischet-perevodchikov.html">Команда Animaxa ищет переводчиков</a> </div>
+        <div style="float:right;">11-03-2020, 12:15 | <a href="https://manga-chan.me/rotations/121412-komanda-animaxa-ischet-perevodchikov.html#comment">комментарии</a> | <a href="https://manga-chan.me/rotations/121412-komanda-animaxa-ischet-perevodchikov.html#comment">0</a></div>
+    </div>
+    <div class="clear"></div>
+    <div class="news_wrap">
+        <div class="entry">
+            Команда Animaxa ищет переводчиков на проекты:<br />Вишня (переводчик с японского);<br />Сегодня и завтра тоже (переводчик с японского);<br />Лихорадочная девочка (переводчик с японского/португальского).<br /><br />Для связи: группа в ВК <a rel='nofollow' href="https://vk.com/an1maxa" >vk.com/an1maxa</a>, e-mail animaxa@bk.ru, <a rel='nofollow' href="https://manga-chan.me/user/Mimiko_chan/" >manga-chan.me/user/Mimiko_chan/</a><br /><br />Будем рады как временному сотрудничеству, так и постоянному!
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+
+
+
+
+
+
+
+
+                        
+                </div>
+	        	
+<div class="baseTop1">
+    <div class="baseTitle">
+        <div style="float:left;width:400px;text-align:left;"><a href="https://manga-chan.me/news/131601-pereboi-s-mangoy-v-chitalne-i-tormoza.html">Перебои с мангой в читальне и Тормоза</a> </div>
+        <div style="float:right;">21-11-2020, 02:44 | <a href="https://manga-chan.me/news/131601-pereboi-s-mangoy-v-chitalne-i-tormoza.html#comment">комментарии</a> | <a href="https://manga-chan.me/news/131601-pereboi-s-mangoy-v-chitalne-i-tormoza.html#comment">275</a></div>
+    </div>
+    <div class="clear"></div>
+    <div class="news_wrap">
+        <div class="entry">
+            Вчера и сегодня на сайте и в приложении не показывались изображения с мангой (большие картинки).<br />До этого они тоже показывались, видимо, не стабильно.<br /><br />Начал сбоить и в итоге вышел из строя один из серверов. На замену такой же пока не дают, так как точно таких же в наличии больше нет, а взять дороже у нас сейчас нет возможности.<br />Поэтому пока будем обходиться тем, что есть. В связи с этим могут появится тормоза, я постараюсь их как-то обойти, но скорее всего в часы пик тормоза всё-таки будут заметны.<br /><br />PS. То, что вышел из строя, не страшно, есть дублирующие сервера, это не проблема.<br />PS2. <a rel='nofollow' href="https://apps.apple.com/ru/app/%D0%BC%D0%B0%D0%BD%D0%B3%D0%B0-%D1%82%D1%8F%D0%BD-%D0%BB%D1%83%D1%87%D1%88%D0%B0%D1%8F-%D0%BC%D0%B0%D0%BD%D0%B3%D0%B0-%D0%B7%D0%B4%D0%B5%D1%81%D1%8C/id925163264" >Приложение для ios</a> (можно добавить Яой-тян, если залогиниться и написать Яой-тян при добавлении)<br />PS3. С тормозами не удалось справиться<br />PS4. Должно стать лучше.
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+
+
+
+
+
+
+
+
+                        
+<div class="baseTop1">
+    <div class="baseTitle">
+        <div style="float:left;width:400px;text-align:left;"><a href="https://manga-chan.me/news/126588-pochemu-ne-rabotayut-arhivy.html">Почему не работают архивы</a> </div>
+        <div style="float:right;">6-07-2020, 12:45 | <a href="https://manga-chan.me/news/126588-pochemu-ne-rabotayut-arhivy.html#comment">комментарии</a> | <a href="https://manga-chan.me/news/126588-pochemu-ne-rabotayut-arhivy.html#comment">40</a></div>
+    </div>
+    <div class="clear"></div>
+    <div class="news_wrap">
+        <div class="entry">
+            Архивы были отключены, потому что закончилось место (было буквально 8.3 Гб свободных из 8 Тб).<br />Сейчас я закончила один интересный модуль, он работает медленно, но уже за неделю освободил 27 Гб<br /><br /><!--dle_spoiler Подробнее --><div class="title_spoiler"><img id="image-6136fc4f5e70054d9546bb79b27da7af" style="vertical-align: middle;border: none;" alt="" src="/templates/mangachan/dleimages/spoiler-plus.gif" />&nbsp;<a rel='nofollow' href="javascript:ShowOrHide('6136fc4f5e70054d9546bb79b27da7af')"><!--spoiler_title-->Подробнее<!--spoiler_title_end--></a></div><div id="6136fc4f5e70054d9546bb79b27da7af" class="text_spoiler" style="display:none;"><!--spoiler_text--><div align="center"><!--dle_image_begin:https://henchan.pro/uploads/posts/2020-07/1594031292_ch_lossless_optimizing.png|--><img src="https://henchan.pro/uploads/posts/2020-07/1594031292_ch_lossless_optimizing.png" alt="Почему не работают архивы" title="Почему не работают архивы"  /><!--dle_image_end--></div><br /><i>работает очень медленно, еще очень много глав в очереди</i><br /><br />(для загружающих и переводчиков: сжимать главы в ущерб качеству не нужно, вопрос с местом мы решим в любом случае, а ужатые сканы уже не исправить)<br /><br />Смысл в том, что он проходит по всем главам и оптимизирует их вес в режиме lossless (то есть без потерь)<br />Вот тут я писала информацию о том, как оптимизировать картинку lossless, и даже выкладывала там самописную утилиту, чтобы это всё ускорить и упростить: <a rel='nofollow' href="https://henchan.pro/lossless_imgs_optimizations.html" >https://henchan.pro/lossless_imgs_optimizations.html</a><br /><br />Благодаря этому удалось высвободить немного места, чтобы включать ненадолго архивы. Чем больше места будет освобождаться, тем на большее будут включаться архивы. Я уже считала, что если взять сервер, который бы позволил вмещать больше места и тянуть нагрузку, то выхйдет где-то в 3-4 раза дороже, чем сейчас. Поэтому приходится выкручиваться другими способами.<br /><br />Также я заканчиваю еще одну оптимизацию и скоро планирую её внедрять, которая тоже может помочь в скорости работы сайта  <!--smile:a089--><img style="vertical-align: middle;border: none;" alt="a089" src="https://manga-chan.me/engine/data/emoticons/a089.gif" /><!--/smile--><!--spoiler_text_end--></div><!--/dle_spoiler--><br /><br /><!--dle_spoiler UPD: Результат работы за 20 дней --><div class="title_spoiler"><img id="image-879d6f7a023f7e862cee6ec0a5565f6f" style="vertical-align: middle;border: none;" alt="" src="/templates/mangachan/dleimages/spoiler-plus.gif" />&nbsp;<a rel='nofollow' href="javascript:ShowOrHide('879d6f7a023f7e862cee6ec0a5565f6f')"><!--spoiler_title-->UPD: Результат работы за 20 дней<!--spoiler_title_end--></a></div><div id="879d6f7a023f7e862cee6ec0a5565f6f" class="text_spoiler" style="display:none;"><!--spoiler_text--><br />Освобождено 186гб, но свободно всё равно 15гб, потому что всё освобожденное уже было занято :D<br /><br /><!--dle_image_begin:https://manga-chan.me/uploads/posts/2020-07/1595876692_2020-07-27_23-58-31.png|--><img src="https://manga-chan.me/uploads/posts/2020-07/1595876692_2020-07-27_23-58-31.png" alt="Почему не работают архивы" title="Почему не работают архивы"  /><!--dle_image_end--><br /><!--spoiler_text_end--></div><!--/dle_spoiler--><br /><br />Всем спасибо за поддержку ^_^
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+
+
+
+
+
+
+
+
+                        
+<div class="baseTop1">
+    <div class="baseTitle">
+        <div style="float:left;width:400px;text-align:left;"><a href="https://manga-chan.me/news/117915-arhivy-snova-rabotayut.html">Архивы снова работают</a> </div>
+        <div style="float:right;">29-10-2019, 15:41 | <a href="https://manga-chan.me/news/117915-arhivy-snova-rabotayut.html#comment">комментарии</a> | <a href="https://manga-chan.me/news/117915-arhivy-snova-rabotayut.html#comment">38</a></div>
+    </div>
+    <div class="clear"></div>
+    <div class="news_wrap">
+        <div class="entry">
+            Починила архивы, теперь должны снова работать нормально. Не хватило серверов загрузок и они начали переполнять друг друга. <br />Чтобы максимально быстро исправить проблему, пришлось докупить ещё, но это совершенно не входило в текущий бюджет, сайты и так уходят в минусы.
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+
+
+
+
+
+
+
+
+                        
+                <div id="more_news"><a href="/news/" title="Еще">≫ Еще</a></div>
+            </div>
+<!--        	<div class="main_fon">
+	            <div class="area_right" style="border:none;margin-left:0px;width:100%;margin-bottom:-15px;">
+                	<div class="area_rightSpace"><span style="font-weight:bold;color:#000000;">Новости печатной манги</span></div>
+	            	<ul class="area_rightNews linkStyle">
+				        тут был информер
+	                </ul>
+                </div>
+            </div> -->
+        	<div class="main_fon">
+	            <div class="area_right" style="border:none;margin-left:0px;width:100%;margin-bottom:-15px;">
+                	<div class="area_rightSpace"><span style="font-weight:bold;color:#000000;">Новые главы</span></div>
+	            	<ul class="area_rightNews linkStyle">
+				        <style>.last_ch_zaliv:hover {background: #eee;} .last_ch_no_zaliv:hover {background: #eee;}</style><div class='last_ch_no_zaliv' style='border-top-left-radius: 5px;border-top-right-radius: 5px;height:2px;'></div><li class='last_ch_no_zaliv'>・ <a href='/manga/101205-yancha-gyaru-no-anjou-san.html'>Yancha gyaru no Anjou-san (Озорная Гяру Андзё-сан)</a> - <a href='/online/862106-yancha-gyaru-no-anjou-san_v10_ch127.html'>10 том 127 глава</a> <div style='float:right;'>Вчера</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/104044-poison-genius-consort.html'>Poison Genius Consort (Ядовитая императорская наложница)</a> - <a href='/online/862105-poison-genius-consort_v1_ch86.html'>1 том 86 глава</a> <div style='float:right;'>Вчера</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/145666-bad-mom.html'>Bad Mom (Плохая Мама)</a> - <a href='/online/862104-bad-mom_v1_ch14.html'>1 том 14 глава</a> <div style='float:right;'>Вчера</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/78223-ijiranaide-nagatoro-san.html'>Ijiranaide, Nagatoro-san (Не издевайся, Нагаторо-сан)</a> - <a href='/online/862103-ijiranaide-nagatoro-san_v15_ch116.html'>15 том 116 глава</a> <div style='float:right;'>Вчера</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/141544-the-mismatch.html'>The Mismatch (Несовпадение)</a> - <a href='/online/862102-the-mismatch_v1_ch33.html'>1 том 33 глава</a> <div style='float:right;'>Вчера</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/49716-komi-san-wa-komyushou-desu..html'>Komi-san wa Komyushou Desu. (У Коми-сан проблемы с общением)</a> - <a href='/online/862101-komi-san-wa-komyushou-desu_v29_ch380.html'>29 том 380 глава</a> <div style='float:right;'>Вчера</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/139344-4-ways-to-save-a-wife.html'>4 ways to save a wife (4 способа спасти жену)</a> - <a href='/online/862096-4-ways-to-save-a-wife_v2_ch69.html'>2 том 69 глава</a> <div style='float:right;'>Вчера</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/97148-edens-zero.html'>Edens Zero (Нулевой Эдем)</a> - <a href='/online/862089-edens-zero_v24_ch212.html'>24 том 212 глава</a> <div style='float:right;'>Вчера</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/143630-not-one-but-two.html'>Not one, but two (Не одна, а две)</a> - <a href='/online/862086-not-one-but-two_v1_ch24.html'>1 том 24 глава</a> <div style='float:right;'>Вчера</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/143630-not-one-but-two.html'>Not one, but two (Не одна, а две)</a> - <a href='/online/862085-not-one-but-two_v1_ch24.html'>1 том 24 глава</a> <div style='float:right;'>Вчера</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/143630-not-one-but-two.html'>Not one, but two (Не одна, а две)</a> - <a href='/online/862084-not-one-but-two_v1_ch23.html'>1 том 23 глава</a> <div style='float:right;'>Вчера</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/76062-ragna-crimson.html'>Ragna Crimson (Рагна Багровый)</a> - <a href='/online/862083-ragna-crimson_v9_ch46.html'>9 том 46 глава</a> <div style='float:right;'>Вчера</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/32745-toaru-nichijou-no-index-san.html'>Toaru Nichijou no Index-san (Будни индекса волшебства)</a> - <a href='/online/862079-toaru-nichijou-no-index-san_v3_ch28.html'>3 том 28 глава</a> <div style='float:right;'>Вчера</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/99981-blue-lock.html'>Blue Lock (Синяя Тюрьма: Блю Лок)</a> - <a href='/online/862078-blue-lock_v21_ch182.html'>21 том 182 глава</a> <div style='float:right;'>Вчера</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/97157-atsumori-kuns-bride-pending.html'>Atsumori-kun's Bride (← Pending) (Жена Ацумори-куна)</a> - <a href='/online/862072-atsumori-kuns-bride-pending_v5_ch20.html'>5 том 20.5 глава</a> <div style='float:right;'>Вчера</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/4002-karneval.html'>Karneval (Карнавал)</a> - <a href='/online/862070-karneval_v28_ch156.html'>28 том 156 глава</a> <div style='float:right;'>Вчера</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/117930-hanging-out-with-a-gamer-girl.html'>Hanging Out With A Gamer Girl (Тусовка с девушкой-геймером)</a> - <a href='/online/862069-hanging-out-with-a-gamer-girl_v3_ch90.html'>3 том 90 глава</a> <div style='float:right;'>Вчера</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/152034-shinigami-musume-ha-peropero-shitai.html'>Shinigami musume ha Peropero shitai (Девушка Синигами хочет лизать)</a> - <a href='/online/862066-shinigami-musume-ha-peropero-shitai_v1_ch5.html'>1 том 5 глава</a> <div style='float:right;'>Вчера</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/141344-send-my-regards-to-kenshiro.html'>Send My Regards to Kenshiro (Передавайте Привет Кенширо)</a> - <a href='/online/862063-send-my-regards-to-kenshiro_v1_ch39.html'>1 том 39 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/141344-send-my-regards-to-kenshiro.html'>Send My Regards to Kenshiro (Передавайте Привет Кенширо)</a> - <a href='/online/862062-send-my-regards-to-kenshiro_v1_ch38.html'>1 том 38 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/141344-send-my-regards-to-kenshiro.html'>Send My Regards to Kenshiro (Передавайте Привет Кенширо)</a> - <a href='/online/862061-send-my-regards-to-kenshiro_v1_ch37.html'>1 том 37 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/136292-that-time-i-got-reincarnated-as-a-slime-reincarnated-slimes-diary.html'>That Time I got Reincarnated as a Slime: Reincarnated slime's diary</a> - <a href='/online/862060-that-time-i-got-reincarnated-as-a-slime-reincarnated-slimes-diary_v4_ch34.html'>4 том 34 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/69661-aharen-san-wa-hakarenai.html'>Aharen-san wa Hakarenai (Непостижимая Ахарэн-сан)</a> - <a href='/online/862058-aharen-san-wa-hakarenai_v11_ch102.html'>11 том 102 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/65116-maken-no-daydreamer.html'>Demon Fist Daydreamer (Фантастический кулак демона)</a> - <a href='/online/862056-demon-fist-daydreamer_v7_ch43.html'>7 том 43 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/105940-academy-of-ghost-stories.html'>Academy of Ghost Stories (Школа страшных историй)</a> - <a href='/online/862054-academy-of-ghost-stories_v4_ch72.html'>4 том 72 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862053-star-carving-dragonar_v13_ch65.html'>13 том 65 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862052-star-carving-dragonar_v13_ch64.html'>13 том 64 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862051-star-carving-dragonar_v13_ch63.html'>13 том 63 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862050-star-carving-dragonar_v13_ch62.html'>13 том 62 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862049-star-carving-dragonar_v13_ch61.html'>13 том 61 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862048-star-carving-dragonar_v13_ch60.html'>13 том 60 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862047-star-carving-dragonar_v12_ch59.html'>12 том 59 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862046-star-carving-dragonar_v12_ch58.html'>12 том 58 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862045-star-carving-dragonar_v12_ch57.html'>12 том 57 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862044-star-carving-dragonar_v12_ch56.html'>12 том 56 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862043-star-carving-dragonar_v12_ch55.html'>12 том 55 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862042-star-carving-dragonar_v11_ch54.html'>11 том 54 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862041-star-carving-dragonar_v11_ch53.html'>11 том 53 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862040-star-carving-dragonar_v11_ch52.html'>11 том 52 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862039-star-carving-dragonar_v11_ch51.html'>11 том 51 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862038-star-carving-dragonar_v11_ch50.html'>11 том 50 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862037-star-carving-dragonar_v10_ch49.html'>10 том 49 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862036-star-carving-dragonar_v10_ch48.html'>10 том 48 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862035-star-carving-dragonar_v10_ch47.html'>10 том 47 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862034-star-carving-dragonar_v10_ch46.html'>10 том 46 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862033-star-carving-dragonar_v10_ch45.html'>10 том 45 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862032-star-carving-dragonar_v9_ch44.html'>9 том 44 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862031-star-carving-dragonar_v9_ch43.html'>9 том 43 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862030-star-carving-dragonar_v9_ch42.html'>9 том 42 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862029-star-carving-dragonar_v9_ch41.html'>9 том 41 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862028-star-carving-dragonar_v9_ch40.html'>9 том 40 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862027-star-carving-dragonar_v8_ch39.html'>8 том 39 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862026-star-carving-dragonar_v8_ch38.html'>8 том 38 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862025-star-carving-dragonar_v8_ch37.html'>8 том 37 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862024-star-carving-dragonar_v8_ch36.html'>8 том 36 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862023-star-carving-dragonar_v8_ch35.html'>8 том 35 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/145641-dangerous-roomies.html'>Dangerous Roomies (Опасные соседки)</a> - <a href='/online/862022-dangerous-roomies_v1_ch17.html'>1 том 17 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/109410-dian-di-mo-nu.html'>Dawn The Teen Witch (Дон, юная ведьма)</a> - <a href='/online/862021-dawn-the-teen-witch_v1_ch51.html'>1 том 51 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862020-star-carving-dragonar_v7_ch34.5.html'>7 том 34.5 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862019-star-carving-dragonar_v7_ch34.html'>7 том 34 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862018-star-carving-dragonar_v7_ch33.html'>7 том 33 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862017-star-carving-dragonar_v7_ch32.html'>7 том 32 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862016-star-carving-dragonar_v7_ch31.html'>7 том 31 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862015-star-carving-dragonar_v6_ch30.html'>6 том 30 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/13069-star-carving-dragonar.html'>Star-Carving Dragonar (Рыцарь-Дракон)</a> - <a href='/online/862014-star-carving-dragonar_v6_ch29.html'>6 том 29 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/117254-i-wanted-to-be-hurt-by-love.html'>I Wanted to be Hurt by Love (Я хотела бы быть обиженной твоей любовью)</a> - <a href='/online/862010-i-wanted-to-be-hurt-by-love_v5_ch31.html'>5 том 31 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/101175-chotto-ippai.html'>Chotto Ippai! (Немного пьяный!)</a> - <a href='/online/862009-chotto-ippai_v4_ch27.html'>4 том 27 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/124044-oshi-no-ko.html'>Oshi no Ko (Звёздное дитя)</a> - <a href='/online/862008-oshi-no-ko_v9_ch84.html'>9 том 84 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/124044-oshi-no-ko.html'>Oshi no Ko (Звёздное дитя)</a> - <a href='/online/862007-oshi-no-ko_v9_ch83.html'>9 том 83 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/124044-oshi-no-ko.html'>Oshi no Ko (Звёздное дитя)</a> - <a href='/online/862006-oshi-no-ko_v9_ch82.html'>9 том 82 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/124044-oshi-no-ko.html'>Oshi no Ko (Звёздное дитя)</a> - <a href='/online/862005-oshi-no-ko_v9_ch81.html'>9 том 81 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/124044-oshi-no-ko.html'>Oshi no Ko (Звёздное дитя)</a> - <a href='/online/862004-oshi-no-ko_v8_ch80.html'>8 том 80 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/76688-shinigami-bocchan-to-kuro-maid.html'>Shinigami Bocchan to Kuro Maid</a> - <a href='/online/862003-shinigami-bocchan-to-kuro-maid_v11_ch146.html'>11 том 146 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/76688-shinigami-bocchan-to-kuro-maid.html'>Shinigami Bocchan to Kuro Maid</a> - <a href='/online/862002-shinigami-bocchan-to-kuro-maid_v11_ch145.html'>11 том 145 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/76688-shinigami-bocchan-to-kuro-maid.html'>Shinigami Bocchan to Kuro Maid</a> - <a href='/online/862001-shinigami-bocchan-to-kuro-maid_v11_ch144.html'>11 том 144 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/76688-shinigami-bocchan-to-kuro-maid.html'>Shinigami Bocchan to Kuro Maid</a> - <a href='/online/862000-shinigami-bocchan-to-kuro-maid_v11_ch143.html'>11 том 143 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/64350-world-teacher-isekaishiki-kyouiku-agent.html'>World Teacher - Isekaishiki Kyouiku Agent</a> - <a href='/online/861999-world-teacher-isekaishiki-kyouiku-agent_v5_ch26.html'>5 том 26 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/143935-noonas-night.html'>Noona's Night (Ночь с Нуной)</a> - <a href='/online/861998-noonas-night_v1_ch32.html'>1 том 32 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/95498-the-way-of-the-house-husband.html'>The Way of the House Husband (Путь домохозяина)</a> - <a href='/online/861997-the-way-of-the-house-husband_v9_ch91.html'>9 том 91 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/128621-young-boss.html'>Young Boss (Молодой Босс)</a> - <a href='/online/861996-young-boss_v1_ch99.html'>1 том 99 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/28268-ballroom-e-youkoso.html'>Sweep over the Dance Hall (Добро пожаловать в танцевальный зал)</a> - <a href='/online/861995-sweep-over-the-dance-hall_v13_ch67.html'>13 том 67 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/134578-tenpuru.html'>Tenpuru (Храм)</a> - <a href='/online/861994-tenpuru_v5_ch40.html'>5 том 40 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/135913-i-became-the-ordinary-daughter-of-a-duke.html'>I became the ordinary daughter of a duke (Я стала дрянной дочерью герцога)</a> - <a href='/online/861993-i-became-the-ordinary-daughter-of-a-duke_v3_ch86.html'>3 том 86 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/144782-a-twisted-day.html'>A Twisted Day (Эта задира меня задр... очаровала!)</a> - <a href='/online/861992-a-twisted-day_v1_ch57.html'>1 том 57 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/144782-a-twisted-day.html'>A Twisted Day (Эта задира меня задр... очаровала!)</a> - <a href='/online/861991-a-twisted-day_v1_ch56.html'>1 том 56 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/131880-higurashi-no-naku-koro-ni-gou.html'>Higurashi no Naku Koro ni Gou (Когда плачут цикады: карма)</a> - <a href='/online/861990-higurashi-no-naku-koro-ni-gou_v3_ch13.html'>3 том 13.2 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/125216-the-second-life-of-the-villain.html'>The second life of the villain (Вторая жизнь злодейки)</a> - <a href='/online/861989-the-second-life-of-the-villain_v2_ch119.html'>2 том 119 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/131880-higurashi-no-naku-koro-ni-gou.html'>Higurashi no Naku Koro ni Gou (Когда плачут цикады: карма)</a> - <a href='/online/861988-higurashi-no-naku-koro-ni-gou_v3_ch13.html'>3 том 13.2 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/144782-a-twisted-day.html'>A Twisted Day (Эта задира меня задр... очаровала!)</a> - <a href='/online/861987-a-twisted-day_v1_ch55.html'>1 том 55 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/144782-a-twisted-day.html'>A Twisted Day (Эта задира меня задр... очаровала!)</a> - <a href='/online/861986-a-twisted-day_v1_ch54.html'>1 том 54 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/144782-a-twisted-day.html'>A Twisted Day (Эта задира меня задр... очаровала!)</a> - <a href='/online/861985-a-twisted-day_v1_ch53.html'>1 том 53 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/144790-my-landlady-noona.html'>My Landlady Noona (Хозяйка здания - моя прекрасная нуна!)</a> - <a href='/online/861984-my-landlady-noona_v1_ch42.html'>1 том 42 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/144790-my-landlady-noona.html'>My Landlady Noona (Хозяйка здания - моя прекрасная нуна!)</a> - <a href='/online/861983-my-landlady-noona_v1_ch41.html'>1 том 41 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/144790-my-landlady-noona.html'>My Landlady Noona (Хозяйка здания - моя прекрасная нуна!)</a> - <a href='/online/861982-my-landlady-noona_v1_ch40.html'>1 том 40 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/144790-my-landlady-noona.html'>My Landlady Noona (Хозяйка здания - моя прекрасная нуна!)</a> - <a href='/online/861981-my-landlady-noona_v1_ch39.html'>1 том 39 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/144790-my-landlady-noona.html'>My Landlady Noona (Хозяйка здания - моя прекрасная нуна!)</a> - <a href='/online/861980-my-landlady-noona_v1_ch38.html'>1 том 38 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/26284-kami-sama-no-iutoori-ni.html'>As the Gods Will - The Second Series (По велению Господа Бога II)</a> - <a href='/online/861979-as-the-gods-will-the-second-series_v17_ch143.html'>17 том 143 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/141652-theater-society.html'>Theater Society (Театральный клуб)</a> - <a href='/online/861977-theater-society_v1_ch77.html'>1 том 77 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/141652-theater-society.html'>Theater Society (Театральный клуб)</a> - <a href='/online/861976-theater-society_v1_ch76.html'>1 том 76 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/141652-theater-society.html'>Theater Society (Театральный клуб)</a> - <a href='/online/861975-theater-society_v1_ch75.html'>1 том 75 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/141652-theater-society.html'>Theater Society (Театральный клуб)</a> - <a href='/online/861974-theater-society_v1_ch74.html'>1 том 74 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/141652-theater-society.html'>Theater Society (Театральный клуб)</a> - <a href='/online/861973-theater-society_v1_ch73.html'>1 том 73 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/143630-not-one-but-two.html'>Not one, but two (Не одна, а две)</a> - <a href='/online/861972-not-one-but-two_v1_ch22.html'>1 том 22 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/143937-a-different-class.html'>A Different Class (Другой Класс)</a> - <a href='/online/861971-a-different-class_v1_ch37.html'>1 том 37 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/143937-a-different-class.html'>A Different Class (Другой Класс)</a> - <a href='/online/861970-a-different-class_v1_ch36.html'>1 том 36 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/143937-a-different-class.html'>A Different Class (Другой Класс)</a> - <a href='/online/861969-a-different-class_v1_ch35.html'>1 том 35 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/143937-a-different-class.html'>A Different Class (Другой Класс)</a> - <a href='/online/861968-a-different-class_v1_ch34.html'>1 том 34 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/143937-a-different-class.html'>A Different Class (Другой Класс)</a> - <a href='/online/861967-a-different-class_v1_ch33.html'>1 том 33 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/144771-cheer-up-namjoo.html'>Cheer Up, Namjoo (Будь сильным, Намджу)</a> - <a href='/online/861966-cheer-up-namjoo_v1_ch28.html'>1 том 28 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/144771-cheer-up-namjoo.html'>Cheer Up, Namjoo (Будь сильным, Намджу)</a> - <a href='/online/861965-cheer-up-namjoo_v1_ch27.html'>1 том 27 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/144771-cheer-up-namjoo.html'>Cheer Up, Namjoo (Будь сильным, Намджу)</a> - <a href='/online/861962-cheer-up-namjoo_v1_ch26.html'>1 том 26 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/144771-cheer-up-namjoo.html'>Cheer Up, Namjoo (Будь сильным, Намджу)</a> - <a href='/online/861961-cheer-up-namjoo_v1_ch25.html'>1 том 25 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/144771-cheer-up-namjoo.html'>Cheer Up, Namjoo (Будь сильным, Намджу)</a> - <a href='/online/861959-cheer-up-namjoo_v1_ch24.html'>1 том 24 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/141970-high-school-girl-survival-difficulties-in-the-sengoku-period.html'>High School Girl Survival Difficulties in the Sengoku Period</a> - <a href='/online/861957-high-school-girl-survival-difficulties-in-the-sengoku-period_v9_ch41.html'>9 том 41 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/102706-gamblers-parade.html'>Gambler's Parade (Шествие игроков)</a> - <a href='/online/861953-gamblers-parade_v2_ch13.html'>2 том 13 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/102706-gamblers-parade.html'>Gambler's Parade (Шествие игроков)</a> - <a href='/online/861952-gamblers-parade_v2_ch12.html'>2 том 12 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/102706-gamblers-parade.html'>Gambler's Parade (Шествие игроков)</a> - <a href='/online/861951-gamblers-parade_v2_ch11.html'>2 том 11 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/102706-gamblers-parade.html'>Gambler's Parade (Шествие игроков)</a> - <a href='/online/861950-gamblers-parade_v2_ch10.html'>2 том 10 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/102706-gamblers-parade.html'>Gambler's Parade (Шествие игроков)</a> - <a href='/online/861949-gamblers-parade_v2_ch9.html'>2 том 9 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/102706-gamblers-parade.html'>Gambler's Parade (Шествие игроков)</a> - <a href='/online/861948-gamblers-parade_v2_ch8.html'>2 том 8 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/102706-gamblers-parade.html'>Gambler's Parade (Шествие игроков)</a> - <a href='/online/861946-gamblers-parade_v2_ch7.html'>2 том 7 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/102706-gamblers-parade.html'>Gambler's Parade (Шествие игроков)</a> - <a href='/online/861945-gamblers-parade_v2_ch6.html'>2 том 6 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/45090-enban-maze.html'>Enban maze (Лабиринт Энбан)</a> - <a href='/online/861940-enban-maze_v4_ch18.html'>4 том 18 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/45090-enban-maze.html'>Enban maze (Лабиринт Энбан)</a> - <a href='/online/861939-enban-maze_v4_ch17.html'>4 том 17 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/45090-enban-maze.html'>Enban maze (Лабиринт Энбан)</a> - <a href='/online/861938-enban-maze_v3_ch16.html'>3 том 16 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/45090-enban-maze.html'>Enban maze (Лабиринт Энбан)</a> - <a href='/online/861937-enban-maze_v3_ch15.html'>3 том 15 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/45090-enban-maze.html'>Enban maze (Лабиринт Энбан)</a> - <a href='/online/861936-enban-maze_v3_ch14.html'>3 том 14 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/45090-enban-maze.html'>Enban maze (Лабиринт Энбан)</a> - <a href='/online/861935-enban-maze_v3_ch13.html'>3 том 13 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_no_zaliv'>・ <a href='/manga/45090-enban-maze.html'>Enban maze (Лабиринт Энбан)</a> - <a href='/online/861934-enban-maze_v3_ch12.html'>3 том 12 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><li class='last_ch_zaliv'>・ <a href='/manga/45090-enban-maze.html'>Enban maze (Лабиринт Энбан)</a> - <a href='/online/861933-enban-maze_v3_ch11.html'>3 том 11 глава</a> <div style='float:right;'>2022-11-09</div><br /></li><div class='last_ch_zaliv' style='border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;height:2px;margin-bottom:-5px;'></div>    
+                        <br />
+	                </ul>
+                </div>
+            </div>            
+        
+        
+        
+        
+        
+		        
+		        
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<div id="side">
+	
+
+	
+	
+    
+    <div class="area_right">
+        <div class="area_rightSpace"><span style="font-weight:bold;color:#000000;">Мои списки</span> (нужно <a href='/index.php?do=register'>зарегистрироваться</a>)</div>
+        <ul class="area_rightNews linkStyle">
+        
+        <li><a href="#">— Хочу прочитать</a><br /></li>
+        <li><a href="#">— Список прочитанного</a><br /></li>
+        <li><a href="#">— Слежу за этой мангой</a><br /></li>
+        <li><a href="#">— Редактировать профиль</a><br /></li>
+        
+        
+        </ul>
+    </div>
+
+    <div class="area_right">
+        <div class="area_rightSpace"><span style="font-weight:bold;color:#000000;"><a href="/user//newest" style="color:#000000;" title="Еще">Новинки для меня</a></span></div>
+        <ul class="area_rightNews linkStyle" style="margin-top:5px;">
+        	Вы пока не следите ни за одной мангой
+            <br />Чтобы начать <b>следить за выходом новых глав</b> нужно <a href='/index.php?do=register'>зарегистрироваться</a>
+        </ul>
+        <p class="area_rightMore"><a href="/user//newest" title="Еще">Еще&#8230;</a></p>
+    </div>
+
+
+    <div class="area_right">
+        <div class="area_rightSpace"><span style="font-weight:bold;color:#000000;"><a href="/lastcomment/" style="color:#000000;">Свежие комментарии</a></span></div>
+        <ul class="area_rightNews linkStyle">
+		  	<div class="recent-row">
+		        	<a href="manga/13523-dont-cry-girl.html" title="">Don't Cry, Girl</a>
+		            <br />Слабо. Согласен с <b>Vikusy</b>,
+		        </div><div class="recent-row">
+		        	<a href="manga/92616-kannou-sensei.html" title="">Kannou-sensei</a>
+		            <br />На трояк вытягивает. Если бы не груды тексту, то может даже на с &#133;
+		        </div><div class="recent-row">
+		        	<a href="manga/118761-looking-up-to-magical-girls.html" title="">Looking up to Magical Girls</a>
+		            <br />Идея вроде интересная, но реализация слабая, незачет
+		        </div><div class="recent-row">
+		        	<a href="manga/120148-i-woke-up-piloting-the-strongest-starship-so-i-became-a-space-mercenary.html" title="">Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!</a>
+		            <br />Чет как-то ничего интересного, ожидалось большего
+		        </div><div class="recent-row">
+		        	<a href="manga/148063-chainsaw-man-2.html" title="">Chainsaw Man 2</a>
+		            <br />THANATOS416, Ангел скорее отыгрывает роль страха перед смертью уч&#133;
+		        </div><div class="recent-row">
+		        	<a href="manga/148063-chainsaw-man-2.html" title="">Chainsaw Man 2</a>
+		            <br />w_r_e_n_c_h, Дурак, дурак) По моему все плюс минус нормально. Сра&#133;
+		        </div><div class="recent-row">
+		        	<a href="manga/148063-chainsaw-man-2.html" title="">Chainsaw Man 2</a>
+		            <br /><b>dezerok</b>, забыл
+		        </div><div class="recent-row">
+		        	<a href="manga/148063-chainsaw-man-2.html" title="">Chainsaw Man 2</a>
+		            <br />Francœur, Как бы круто это не звучало, не думаю что он был бы сил&#133;
+		        </div><div class="recent-row">
+		        	<a href="manga/124861-omniscient-reader.html" title="">Omniscient Reader</a>
+		            <br />Хах, троица болельщиков прознала о секрете силы Докджа) Если конч&#133;
+		        </div><div class="recent-row">
+		        	<a href="manga/148063-chainsaw-man-2.html" title="">Chainsaw Man 2</a>
+		            <br />Я Я - дурак, ругаюсь матом, мерзкий, толстый, бородатый ., полови&#133;
+		        </div><div class="recent-row">
+		        	<a href="manga/95498-the-way-of-the-house-husband.html" title="">The Way of the House Husband</a>
+		            <br />Дюже дякую.
+		        </div><div class="recent-row">
+		        	<a href="manga/108659-my-wife-is-a-demon-queen.html" title="">My Wife is a Demon Queen</a>
+		            <br />Хах, антиспиральщики местного разлива
+		        </div><div class="recent-row">
+		        	<a href="manga/24788-the-gamer.html" title="">The gamer</a>
+		            <br />Благодарю за перевод   <br />
+		        </div>    
+        </ul>
+        <p class="area_rightMore"><a href="/lastcomment/">Еще&#8230;</a></p>
+    </div>
+
+    <div class="area_right">
+        <div class="area_rightSpace"><span style="font-weight:bold;color:#000000;"><a href="/mostfavorites" style="color:#000000;">Популярные серии</a></span></div>
+        <div id="new" style="margin-top:-13px;">
+	        <ol> 
+		  	<li>
+    <div class="icon" style="overflow:hidden;"><div><img style="width:39px;" src="https://imgcover.manga-chan.me/popular_top/uploads/posts/2012-07/thumbs/1341859425_i125583.jpg" /></div></div>
+        <div class="manga" style="margin-top:-2px;">
+            <a href="/manga/33-girl-the-wilds.html" class="top" title="Girl the Wild's">Girl the Wild's</a><br />
+        <span><a href="/tags/%D1%88%D0%BA%D0%BE%D0%BB%D0%B0/">школа</a>, <a href="/tags/%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F/">комедия</a>, <a href="/tags/%D0%B2%D0%B5%D0%B1/">веб</a>, <a href="/tags/%D0%B4%D1%80%D0%B0%D0%BC%D0%B0/">драма</a>, <a href="/tags/%D0%B1%D0%BE%D0%B5%D0%B2%D0%B8%D0%BA/">боевик</a>, <a href="/tags/%D0%B1%D0%BE%D0%B5%D0%B2%D1%8B%D0%B5_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0/">боевые_искусства</a>, <a href="/tags/%D0%B3%D0%B0%D1%80%D0%B5%D0%BC/">гарем</a>, <a href="/tags/%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0/">романтика</a></span>
+    </div>
+</li>    
+<li>
+    <div class="icon" style="overflow:hidden;"><div><img style="width:39px;" src="https://imgcover.manga-chan.me/popular_top/uploads/posts/2017-09/thumbs/1504441962_cover.jpg" /></div></div>
+        <div class="manga" style="margin-top:-2px;">
+            <a href="/manga/5335-the-breaker-new-waves.html" class="top" title="The Breaker: New waves">The Breaker: New waves</a><br />
+        <span><a href="/tags/%D0%B1%D0%BE%D0%B5%D0%B2%D1%8B%D0%B5_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0/">боевые_искусства</a>, <a href="/tags/%D1%81%D1%91%D0%BD%D1%8D%D0%BD/">сёнэн</a>, <a href="/tags/%D0%B3%D0%B0%D1%80%D0%B5%D0%BC/">гарем</a>, <a href="/tags/%D0%B1%D0%BE%D0%B5%D0%B2%D0%B8%D0%BA/">боевик</a>, <a href="/tags/%D0%B4%D1%80%D0%B0%D0%BC%D0%B0/">драма</a>, <a href="/tags/%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0/">романтика</a>, <a href="/tags/%D1%8D%D1%80%D0%BE%D1%82%D0%B8%D0%BA%D0%B0/">эротика</a>, <a href="/tags/%D1%88%D0%BA%D0%BE%D0%BB%D0%B0/">школа</a>, <a href="/tags/%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F/">комедия</a></span>
+    </div>
+</li>    
+<li>
+    <div class="icon" style="overflow:hidden;"><div><img style="width:39px;" src="https://imgcover.manga-chan.me/popular_top/uploads/posts/2017-09/thumbs/1506511592_01.jpg" /></div></div>
+        <div class="manga" style="margin-top:-2px;">
+            <a href="/manga/13614-daily-life-with-a-monster-girl.html" class="top" title="Daily Life With A Monster Girl">Daily Life With A Monster Girl</a><br />
+        <span><a href="/tags/%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F/">комедия</a>, <a href="/tags/%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0/">романтика</a>, <a href="/tags/%D1%8D%D1%80%D0%BE%D1%82%D0%B8%D0%BA%D0%B0/">эротика</a>, <a href="/tags/%D0%B3%D0%B0%D1%80%D0%B5%D0%BC/">гарем</a>, <a href="/tags/%D1%81%D1%8D%D0%B9%D0%BD%D1%8D%D0%BD/">сэйнэн</a>, <a href="/tags/18_%D0%BF%D0%BB%D1%8E%D1%81/">18_плюс</a>, <a href="/tags/%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%8A%D0%B5%D1%81%D1%82%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5/">сверхъестественное</a>, <a href="/tags/%D1%84%D1%8D%D0%BD%D1%82%D0%B5%D0%B7%D0%B8/">фэнтези</a>, <a href="/tags/%D1%81%D1%91%D0%BD%D1%8D%D0%BD/">сёнэн</a>, <a href="/tags/%D0%BF%D0%BE%D0%B2%D1%81%D0%B5%D0%B4%D0%BD%D0%B5%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C/">повседневность</a></span>
+    </div>
+</li>    
+<li>
+    <div class="icon" style="overflow:hidden;"><div><img style="width:39px;" src="https://imgcover.manga-chan.me/popular_top/uploads/posts/2016-08/thumbs/1472293666_1472254405_5340712-.jpg" /></div></div>
+        <div class="manga" style="margin-top:-2px;">
+            <a href="/manga/3154-one-piece.html" class="top" title="One Piece">One Piece</a><br />
+        <span><a href="/tags/%D1%81%D1%91%D0%BD%D1%8D%D0%BD/">сёнэн</a>, <a href="/tags/%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F/">комедия</a>, <a href="/tags/%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F/">приключения</a>, <a href="/tags/%D1%84%D1%8D%D0%BD%D1%82%D0%B5%D0%B7%D0%B8/">фэнтези</a>, <a href="/tags/%D0%B1%D0%BE%D0%B5%D0%B2%D0%B8%D0%BA/">боевик</a>, <a href="/tags/%D0%B4%D1%80%D0%B0%D0%BC%D0%B0/">драма</a>, <a href="/tags/%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%8A%D0%B5%D1%81%D1%82%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5/">сверхъестественное</a>, <a href="/tags/%D0%BD%D0%B0%D1%83%D1%87%D0%BD%D0%B0%D1%8F_%D1%84%D0%B0%D0%BD%D1%82%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0/">научная_фантастика</a>, <a href="/tags/%D0%BF%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/">психология</a>, <a href="/tags/%D0%B1%D0%BE%D0%B5%D0%B2%D1%8B%D0%B5_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0/">боевые_искусства</a>, <a href="/tags/%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0/">романтика</a></span>
+    </div>
+</li>    
+<li>
+    <div class="icon" style="overflow:hidden;"><div><img style="width:39px;" src="https://imgcover.manga-chan.me/popular_top/uploads/posts/2013-09/thumbs/1379001468_1378758199_234.jpg" /></div></div>
+        <div class="manga" style="margin-top:-2px;">
+            <a href="/manga/24788-the-gamer.html" class="top" title="The gamer">The gamer</a><br />
+        <span><a href="/tags/%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%8A%D0%B5%D1%81%D1%82%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5/">сверхъестественное</a>, <a href="/tags/%D1%84%D1%8D%D0%BD%D1%82%D0%B5%D0%B7%D0%B8/">фэнтези</a>, <a href="/tags/%D1%88%D0%BA%D0%BE%D0%BB%D0%B0/">школа</a>, <a href="/tags/%D1%81%D1%91%D0%BD%D1%8D%D0%BD/">сёнэн</a>, <a href="/tags/%D0%B1%D0%BE%D0%B5%D0%B2%D0%B8%D0%BA/">боевик</a>, <a href="/tags/%D0%B2%D0%B5%D0%B1/">веб</a>, <a href="/tags/%D0%BB%D0%B8%D1%82%D0%A0%D0%9F%D0%93/">литРПГ</a>, <a href="/tags/%D0%B3%D0%B0%D1%80%D0%B5%D0%BC/">гарем</a>, <a href="/tags/%D0%B8%D0%B3%D1%80%D0%B0/">игра</a>, <a href="/tags/%D0%B2_%D1%86%D0%B2%D0%B5%D1%82%D0%B5/">в_цвете</a>, <a href="/tags/%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0/">романтика</a>, <a href="/tags/%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F/">комедия</a>, <a href="/tags/%D0%B1%D0%BE%D0%B5%D0%B2%D1%8B%D0%B5_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0/">боевые_искусства</a>, <a href="/tags/%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F/">приключения</a></span>
+    </div>
+</li>    
+<li>
+    <div class="icon" style="overflow:hidden;"><div><img style="width:39px;" src="https://imgcover.manga-chan.me/popular_top/uploads/posts/2020-06/thumbs/1591990432_cover.jpg" /></div></div>
+        <div class="manga" style="margin-top:-2px;">
+            <a href="/manga/10622-minamoto-kun-monogatari.html" class="top" title="Minamoto-kun Monogatari">Minamoto-kun Monogatari</a><br />
+        <span><a href="/tags/%D0%B3%D0%B0%D1%80%D0%B5%D0%BC/">гарем</a>, <a href="/tags/%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F/">комедия</a>, <a href="/tags/%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0/">романтика</a>, <a href="/tags/%D1%8D%D1%80%D0%BE%D1%82%D0%B8%D0%BA%D0%B0/">эротика</a>, <a href="/tags/%D1%81%D1%8D%D0%B9%D0%BD%D1%8D%D0%BD/">сэйнэн</a>, <a href="/tags/18_%D0%BF%D0%BB%D1%8E%D1%81/">18_плюс</a>, <a href="/tags/%D0%B8%D0%BD%D1%86%D0%B5%D1%81%D1%82/">инцест</a>, <a href="/tags/%D0%B4%D1%80%D0%B0%D0%BC%D0%B0/">драма</a>, <a href="/tags/%D1%88%D0%BA%D0%BE%D0%BB%D0%B0/">школа</a></span>
+    </div>
+</li>    
+<li>
+    <div class="icon" style="overflow:hidden;"><div><img style="width:39px;" src="https://imgcover.manga-chan.me/popular_top/uploads/posts/2011-09/thumbs/1315697697_fairy-tail.jpg" /></div></div>
+        <div class="manga" style="margin-top:-2px;">
+            <a href="/manga/3298-fairy-tail.html" class="top" title="Fairy Tail">Fairy Tail</a><br />
+        <span><a href="/tags/%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%8A%D0%B5%D1%81%D1%82%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5/">сверхъестественное</a>, <a href="/tags/%D1%81%D1%91%D0%BD%D1%8D%D0%BD/">сёнэн</a>, <a href="/tags/%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F/">приключения</a>, <a href="/tags/%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F/">комедия</a>, <a href="/tags/%D1%84%D1%8D%D0%BD%D1%82%D0%B5%D0%B7%D0%B8/">фэнтези</a>, <a href="/tags/%D0%B4%D1%80%D0%B0%D0%BC%D0%B0/">драма</a>, <a href="/tags/%D0%B1%D0%BE%D0%B5%D0%B2%D0%B8%D0%BA/">боевик</a>, <a href="/tags/%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0/">романтика</a>, <a href="/tags/%D1%8D%D1%80%D0%BE%D1%82%D0%B8%D0%BA%D0%B0/">эротика</a>, <a href="/tags/%D0%B3%D0%B5%D1%80%D0%BE%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D1%84%D1%8D%D0%BD%D1%82%D0%B5%D0%B7%D0%B8/">героическое_фэнтези</a></span>
+    </div>
+</li>    
+<li>
+    <div class="icon" style="overflow:hidden;"><div><img style="width:39px;" src="https://imgcover.manga-chan.me/popular_top/uploads/posts/2020-02/thumbs/1581529422_01.jpg" /></div></div>
+        <div class="manga" style="margin-top:-2px;">
+            <a href="/manga/17079-onepunchman.html" class="top" title="Onepunchman">Onepunchman</a><br />
+        <span><a href="/tags/%D0%B1%D0%BE%D0%B5%D0%B2%D0%B8%D0%BA/">боевик</a>, <a href="/tags/%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F/">комедия</a>, <a href="/tags/%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%8A%D0%B5%D1%81%D1%82%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5/">сверхъестественное</a>, <a href="/tags/%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F/">приключения</a>, <a href="/tags/%D0%B4%D1%80%D0%B0%D0%BC%D0%B0/">драма</a>, <a href="/tags/%D1%81%D1%83%D0%BF%D0%B5%D1%80%D0%B3%D0%B5%D1%80%D0%BE%D0%B8/">супергерои</a>, <a href="/tags/%D0%BD%D0%B0%D1%83%D1%87%D0%BD%D0%B0%D1%8F_%D1%84%D0%B0%D0%BD%D1%82%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0/">научная_фантастика</a>, <a href="/tags/%D1%81%D1%8D%D0%B9%D0%BD%D1%8D%D0%BD/">сэйнэн</a>, <a href="/tags/%D0%B3%D0%B5%D1%80%D0%BE%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D1%84%D1%8D%D0%BD%D1%82%D0%B5%D0%B7%D0%B8/">героическое_фэнтези</a>, <a href="/tags/%D1%81%D1%91%D0%BD%D1%8D%D0%BD/">сёнэн</a>, <a href="/tags/%D1%84%D0%B0%D0%BD%D1%82%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0/">фантастика</a>, <a href="/tags/%D0%B2%D0%B5%D0%B1/">веб</a>, <a href="/tags/%D0%B1%D0%BE%D0%B5%D0%B2%D1%8B%D0%B5_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0/">боевые_искусства</a>, <a href="/tags/%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BF%D0%BE%D0%BA%D0%B0%D0%BB%D0%B8%D0%BF%D1%82%D0%B8%D0%BA%D0%B0/">постапокалиптика</a></span>
+    </div>
+</li>    
+<li>
+    <div class="icon" style="overflow:hidden;"><div><img style="width:39px;" src="https://imgcover.manga-chan.me/popular_top/uploads/posts/2013-10/thumbs/1380646482_maidsama01-000a.jpg" /></div></div>
+        <div class="manga" style="margin-top:-2px;">
+            <a href="/manga/4306-class-president-is-a-maid.html" class="top" title="Class President is a Maid!">Class President is a Maid!</a><br />
+        <span><a href="/tags/%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F/">комедия</a>, <a href="/tags/%D1%81%D1%91%D0%B4%D0%B7%D1%91/">сёдзё</a>, <a href="/tags/%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0/">романтика</a>, <a href="/tags/%D0%B4%D1%80%D0%B0%D0%BC%D0%B0/">драма</a>, <a href="/tags/%D1%88%D0%BA%D0%BE%D0%BB%D0%B0/">школа</a>, <a href="/tags/%D0%BF%D0%BE%D0%B2%D1%81%D0%B5%D0%B4%D0%BD%D0%B5%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C/">повседневность</a></span>
+    </div>
+</li>    
+<li>
+    <div class="icon" style="overflow:hidden;"><div><img style="width:39px;" src="https://imgcover.manga-chan.me/popular_top/uploads/posts/2012-09/thumbs/1346746564_vol04_ch14_1205.jpg" /></div></div>
+        <div class="manga" style="margin-top:-2px;">
+            <a href="/manga/5940-attack-on-titan.html" class="top" title="Attack on Titan">Attack on Titan</a><br />
+        <span><a href="/tags/%D1%83%D0%B6%D0%B0%D1%81%D1%8B/">ужасы</a>, <a href="/tags/%D1%82%D1%80%D0%B0%D0%B3%D0%B5%D0%B4%D0%B8%D1%8F/">трагедия</a>, <a href="/tags/%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%8A%D0%B5%D1%81%D1%82%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5/">сверхъестественное</a>, <a href="/tags/%D0%B4%D1%80%D0%B0%D0%BC%D0%B0/">драма</a>, <a href="/tags/%D0%BF%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/">психология</a>, <a href="/tags/%D1%84%D1%8D%D0%BD%D1%82%D0%B5%D0%B7%D0%B8/">фэнтези</a>, <a href="/tags/%D0%BC%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0/">мистика</a>, <a href="/tags/%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F/">история</a>, <a href="/tags/%D1%81%D1%91%D0%BD%D1%8D%D0%BD/">сёнэн</a>, <a href="/tags/%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BF%D0%BE%D0%BA%D0%B0%D0%BB%D0%B8%D0%BF%D1%82%D0%B8%D0%BA%D0%B0/">постапокалиптика</a>, <a href="/tags/%D0%B1%D0%BE%D0%B5%D0%B2%D0%B8%D0%BA/">боевик</a>, <a href="/tags/%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F/">приключения</a></span>
+    </div>
+</li>    
+    
+            </ol>
+        </div>
+        <p class="area_rightMore"><a href="/mostfavorites">Еще&#8230;</a></p>
+    </div>
+
+    <div class="area_right">
+        <div class="area_rightSpace"><span style="font-weight:bold;color:#000000;"><a href="/tags/" style="color:#000000;">Тэги</a></span></div>
+        <ul class="area_rightNews linkStyle_normal" style="word-wrap: break-word;">
+		   	﻿
+<div style=''>
+	<div class="sidetags" style="clear:both;width:100%">
+
+
+
+
+    	
+
+		<ul style='font-size:14px;'>
+			            <li class='sidetag'>
+                <a href='/tags/18_плюс'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-18_плюс' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/18_плюс'>18 плюс</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/bdsm'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-bdsm' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/bdsm'>bdsm</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/арт'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-арт' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/арт'>арт</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевик'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-боевик' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/боевик'>боевик</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/боевые_искусства'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-боевые_искусства' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/боевые_искусства'>боевые искусства</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/вампиры'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-вампиры' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/вампиры'>вампиры</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/веб'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-веб' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/веб'>веб</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/гарем'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-гарем' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/гарем'>гарем</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/гендерная_интрига'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-гендерная_интрига' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/гендерная_интрига'>гендерная интрига</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/героическое_фэнтези'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-героическое_фэнтези' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/героическое_фэнтези'>героическое фэнтези</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/детектив'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-детектив' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/детектив'>детектив</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/дзёсэй'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-дзёсэй' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/дзёсэй'>дзёсэй</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/додзинси'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-додзинси' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/додзинси'>додзинси</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/драма'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-драма' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/драма'>драма</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/игра'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-игра' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/игра'>игра</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/инцест'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-инцест' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/инцест'>инцест</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/искусство'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-искусство' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/искусство'>искусство</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/история'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-история' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/история'>история</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/киберпанк'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-киберпанк' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/киберпанк'>киберпанк</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/кодомо'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-кодомо' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/кодомо'>кодомо</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/комедия'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-комедия' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/комедия'>комедия</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/литРПГ'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-литРПГ' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/литРПГ'>литРПГ</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/махо-сёдзё'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-махо-сёдзё' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/махо-сёдзё'>махо-сёдзё</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/меха'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-меха' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/меха'>меха</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/мистика'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-мистика' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/мистика'>мистика</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/музыка'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-музыка' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/музыка'>музыка</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/научная_фантастика'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-научная_фантастика' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/научная_фантастика'>научная фантастика</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/омегаверс'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-омегаверс' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/омегаверс'>омегаверс</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/повседневность'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-повседневность' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/повседневность'>повседневность</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/постапокалиптика'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-постапокалиптика' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/постапокалиптика'>постапокалиптика</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/приключения'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-приключения' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/приключения'>приключения</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/психология'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-психология' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/психология'>психология</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/романтика'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-романтика' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/романтика'>романтика</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/самурайский_боевик'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-самурайский_боевик' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/самурайский_боевик'>самурайский боевик</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/сборник'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-сборник' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/сборник'>сборник</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/сверхъестественное'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-сверхъестественное' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/сверхъестественное'>сверхъестественное</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/сказка'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-сказка' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/сказка'>сказка</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/спорт'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-спорт' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/спорт'>спорт</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/супергерои'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-супергерои' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/супергерои'>супергерои</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/сэйнэн'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-сэйнэн' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/сэйнэн'>сэйнэн</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/сёдзё'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-сёдзё' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/сёдзё'>сёдзё</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/сёдзё-ай'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-сёдзё-ай' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/сёдзё-ай'>сёдзё-ай</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/сёнэн'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-сёнэн' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/сёнэн'>сёнэн</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/сёнэн-ай'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-сёнэн-ай' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/сёнэн-ай'>сёнэн-ай</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/танцы'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-танцы' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/танцы'>танцы</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/трагедия'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-трагедия' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/трагедия'>трагедия</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/триллер'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-триллер' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/триллер'>триллер</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/ужасы'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-ужасы' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/ужасы'>ужасы</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/фантастика'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-фантастика' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/фантастика'>фантастика</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/фурри'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-фурри' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/фурри'>фурри</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/фэнтези'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-фэнтези' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/фэнтези'>фэнтези</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/школа'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-школа' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/школа'>школа</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/эротика'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-эротика' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/эротика'>эротика</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/юри'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-юри' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/юри'>юри</a>
+            </li>            <li class='sidetag'>
+                <a href='/tags/ёнкома'  title='Добавить к поиску'>+</a>
+                <a href='/tags/-ёнкома' rel='nofollow' title='Удалить из поиска'>-</a>
+                <a href='/tags/ёнкома'>ёнкома</a>
+            </li>   
+        </ul>
+    	    
+    </div>
+</div>
+
+        </ul>
+        <p class="area_rightMore"><a href="/tags/">Все</a></p>
+    </div>
+
+    <div class="area_right">
+        <div class="area_rightSpace"><span style="font-weight:bold;color:#000000;"><a href="/type/" style="color:#000000;">Типы манги</a></span></div>
+        <ul class="area_rightNews linkStyle_normal">
+		   	<div><a href='/type/'>・ </a></div><div><a href='/type/OEL Manga'>・ OEL Manga</a></div><div><a href='/type/OEL-манга'>・ OEL-манга</a></div><div><a href='/type/Другое'>・ Другое</a></div><div><a href='/type/Комикс'>・ Комикс</a></div><div><a href='/type/Манга'>・ Манга</a></div><div><a href='/type/Манхва'>・ Манхва</a></div><div><a href='/type/Маньхуа'>・ Маньхуа</a></div><div><a href='/type/Новелла'>・ Новелла</a></div><div><a href='/type/Ранобэ'>・ Ранобэ</a></div><div><a href='/type/Руманга'>・ Руманга</a></div><div><a href='/type/Стрип'>・ Стрип</a></div>
+        </ul>
+    </div>
+
+    <div class="area_right">
+        <div class="area_rightSpace"><span style="font-weight:bold;color:#000000;"><a href="/manga/new" style="color:#000000;">Новая манга</a></span></div>
+        <div id="new" style="margin-top:-13px;">
+	        <ol> 
+            <li>
+    <div class="icon" style="overflow:hidden;"><div><img style="width:39px;" src="https://imgcover.manga-chan.me/popular_top/uploads/posts/2022-11/thumbs/1668006515_q2gtonn7pdxx_250x350.jpg" /></div></div>
+        <div class="manga" style="margin-top:-2px;">
+            <a href="/manga/153609-bakumatsu-tobaku-barbaroi.html" class="top" title="Bakumatsu Tobaku Barbaroi">Bakumatsu Tobaku Barbaroi</a><br />
+        <span><a href="/tags/%D0%B2%D0%B5%D0%B1/">веб</a>, <a href="/tags/%D0%B8%D0%B3%D1%80%D0%B0/">игра</a>, <a href="/tags/%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F/">история</a>, <a href="/tags/%D1%81%D0%B0%D0%BC%D1%83%D1%80%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%B1%D0%BE%D0%B5%D0%B2%D0%B8%D0%BA/">самурайский_боевик</a>, <a href="/tags/%D1%81%D1%91%D0%BD%D1%8D%D0%BD/">сёнэн</a></span>
+    </div>
+</li>    
+<li>
+    <div class="icon" style="overflow:hidden;"><div><img style="width:39px;" src="https://imgcover.manga-chan.me/popular_top/uploads/posts/2022-11/thumbs/1667822691_vxws2eqj5na9_250x350.jpg" /></div></div>
+        <div class="manga" style="margin-top:-2px;">
+            <a href="/manga/153564-mazinger-z-vs.-transformers.html" class="top" title="Mazinger Z vs. Transformers">Mazinger Z vs. Transformers</a><br />
+        <span><a href="/tags/%D0%B1%D0%BE%D0%B5%D0%B2%D0%B8%D0%BA/">боевик</a>, <a href="/tags/%D0%BC%D0%B5%D1%85%D0%B0/">меха</a>, <a href="/tags/%D0%BD%D0%B0%D1%83%D1%87%D0%BD%D0%B0%D1%8F_%D1%84%D0%B0%D0%BD%D1%82%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0/">научная_фантастика</a>, <a href="/tags/%D1%81%D0%B1%D0%BE%D1%80%D0%BD%D0%B8%D0%BA/">сборник</a>, <a href="/tags/%D0%B2_%D1%86%D0%B2%D0%B5%D1%82%D0%B5/">в_цвете</a></span>
+    </div>
+</li>    
+<li>
+    <div class="icon" style="overflow:hidden;"><div><img style="width:39px;" src="https://imgcover.manga-chan.me/popular_top/uploads/posts/2022-11/thumbs/1667822025_exqqlpmkk8ty_250x350.jpg" /></div></div>
+        <div class="manga" style="margin-top:-2px;">
+            <a href="/manga/153558-new-demon-lord-dante.html" class="top" title="New Demon Lord Dante">New Demon Lord Dante</a><br />
+        <span><a href="/tags/%D0%B1%D0%BE%D0%B5%D0%B2%D0%B8%D0%BA/">боевик</a>, <a href="/tags/%D0%BD%D0%B0%D1%83%D1%87%D0%BD%D0%B0%D1%8F_%D1%84%D0%B0%D0%BD%D1%82%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0/">научная_фантастика</a>, <a href="/tags/%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%8A%D0%B5%D1%81%D1%82%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5/">сверхъестественное</a>, <a href="/tags/%D1%81%D1%8D%D0%B9%D0%BD%D1%8D%D0%BD/">сэйнэн</a>, <a href="/tags/%D1%82%D1%80%D0%B0%D0%B3%D0%B5%D0%B4%D0%B8%D1%8F/">трагедия</a>, <a href="/tags/%D1%83%D0%B6%D0%B0%D1%81%D1%8B/">ужасы</a>, <a href="/tags/%D1%84%D1%8D%D0%BD%D1%82%D0%B5%D0%B7%D0%B8/">фэнтези</a></span>
+    </div>
+</li>    
+<li>
+    <div class="icon" style="overflow:hidden;"><div><img style="width:39px;" src="https://imgcover.manga-chan.me/popular_top/uploads/posts/2022-11/thumbs/1667765127_wnpjajkapazq_250x350.jpg" /></div></div>
+        <div class="manga" style="margin-top:-2px;">
+            <a href="/manga/153555-i-didnt-save-you-to-propose.html" class="top" title="I didn't save you to propose">I didn't save you to propose</a><br />
+        <span><a href="/tags/%D1%84%D1%8D%D0%BD%D1%82%D0%B5%D0%B7%D0%B8/">фэнтези</a>, <a href="/tags/%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0/">романтика</a>, <a href="/tags/%D1%81%D1%91%D0%B4%D0%B7%D1%91/">сёдзё</a>, <a href="/tags/%D0%B8%D1%81%D0%B5%D0%BA%D0%B0%D0%B9/">исекай</a></span>
+    </div>
+</li>    
+<li>
+    <div class="icon" style="overflow:hidden;"><div><img style="width:39px;" src="https://imgcover.manga-chan.me/popular_top/uploads/posts/2022-11/thumbs/1667764619_3uevpaeoaqcf_250x350.jpg" /></div></div>
+        <div class="manga" style="margin-top:-2px;">
+            <a href="/manga/153552-the-crown-princes-fiance.html" class="top" title="The Crown Prince’s Fiancée">The Crown Prince’s Fiancée</a><br />
+        <span><a href="/tags/%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0/">романтика</a>, <a href="/tags/%D1%84%D1%8D%D0%BD%D1%82%D0%B5%D0%B7%D0%B8/">фэнтези</a>, <a href="/tags/%D0%B4%D1%80%D0%B0%D0%BC%D0%B0/">драма</a>, <a href="/tags/%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F/">история</a>, <a href="/tags/%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F/">комедия</a></span>
+    </div>
+</li>    
+<li>
+    <div class="icon" style="overflow:hidden;"><div><img style="width:39px;" src="https://imgcover.manga-chan.me/popular_top/uploads/posts/2022-11/thumbs/1667764301_eahvt1erdzxw_250x350.jpg" /></div></div>
+        <div class="manga" style="margin-top:-2px;">
+            <a href="/manga/153551-my-childhood-friend-became-an-obsessive-husband.html" class="top" title="My childhood friend became an obsessive husband">My childhood friend became an obsessive husband</a><br />
+        <span><a href="/tags/%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F/">комедия</a>, <a href="/tags/%D0%B4%D1%80%D0%B0%D0%BC%D0%B0/">драма</a>, <a href="/tags/%D1%81%D1%91%D0%B4%D0%B7%D1%91/">сёдзё</a>, <a href="/tags/%D1%84%D1%8D%D0%BD%D1%82%D0%B5%D0%B7%D0%B8/">фэнтези</a>, <a href="/tags/%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0/">романтика</a></span>
+    </div>
+</li>    
+<li>
+    <div class="icon" style="overflow:hidden;"><div><img style="width:39px;" src="https://imgcover.manga-chan.me/popular_top/uploads/posts/2022-11/thumbs/1667754078_screenshot_1.jpg" /></div></div>
+        <div class="manga" style="margin-top:-2px;">
+            <a href="/manga/153545-koibumi-yamamoto-souichirou-tanpenshuu.html" class="top" title="Koibumi - Yamamoto Souichirou Tanpenshuu">Koibumi - Yamamoto Souichirou Tanpenshuu</a><br />
+        <span><a href="/tags/%D1%81%D1%91%D0%BD%D1%8D%D0%BD/">сёнэн</a>, <a href="/tags/%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%8A%D0%B5%D1%81%D1%82%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5/">сверхъестественное</a>, <a href="/tags/%D0%BF%D0%BE%D0%B2%D1%81%D0%B5%D0%B4%D0%BD%D0%B5%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C/">повседневность</a>, <a href="/tags/%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F/">комедия</a></span>
+    </div>
+</li>    
+<li>
+    <div class="icon" style="overflow:hidden;"><div><img style="width:39px;" src="https://imgcover.manga-chan.me/popular_top/uploads/posts/2022-11/thumbs/1667745451_1_jvem.jpg" /></div></div>
+        <div class="manga" style="margin-top:-2px;">
+            <a href="/manga/153541-chieri-no-koi-wa-8-meters.html" class="top" title="Chieri no Koi wa 8 Meters">Chieri no Koi wa 8 Meters</a><br />
+        <span><a href="/tags/%D0%B2%D0%B5%D0%B1/">веб</a>, <a href="/tags/%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F/">комедия</a>, <a href="/tags/%D0%BF%D0%BE%D0%B2%D1%81%D0%B5%D0%B4%D0%BD%D0%B5%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C/">повседневность</a>, <a href="/tags/%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0/">романтика</a>, <a href="/tags/%D1%81%D1%91%D0%BD%D1%8D%D0%BD/">сёнэн</a>, <a href="/tags/%D1%88%D0%BA%D0%BE%D0%BB%D0%B0/">школа</a>, <a href="/tags/%D1%8D%D1%80%D0%BE%D1%82%D0%B8%D0%BA%D0%B0/">эротика</a></span>
+    </div>
+</li>    
+<li>
+    <div class="icon" style="overflow:hidden;"><div><img style="width:39px;" src="https://imgcover.manga-chan.me/popular_top/uploads/posts/2022-11/thumbs/1667681014_02.jpg" /></div></div>
+        <div class="manga" style="margin-top:-2px;">
+            <a href="/manga/153528-osana-najimi-no-majo-ni-tsuite.html" class="top" title="Osana Najimi no Majo ni Tsuite">Osana Najimi no Majo ni Tsuite</a><br />
+        <span><a href="/tags/%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0/">романтика</a>, <a href="/tags/%D1%81%D1%91%D0%B4%D0%B7%D1%91/">сёдзё</a>, <a href="/tags/%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%8A%D0%B5%D1%81%D1%82%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5/">сверхъестественное</a>, <a href="/tags/%D0%BC%D0%B0%D0%B3%D0%B8%D1%8F/">магия</a></span>
+    </div>
+</li>    
+<li>
+    <div class="icon" style="overflow:hidden;"><div><img style="width:39px;" src="https://imgcover.manga-chan.me/popular_top/uploads/posts/2022-11/thumbs/1668016554_1667511725_706.jpg" /></div></div>
+        <div class="manga" style="margin-top:-2px;">
+            <a href="/manga/153504-sayonara-taaminaru.html" class="top" title="Sayonara Taaminaru">Sayonara Taaminaru</a><br />
+        <span><a href="/tags/%D1%81%D1%91%D0%B4%D0%B7%D1%91/">сёдзё</a>, <a href="/tags/%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0/">романтика</a>, <a href="/tags/%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F/">комедия</a>, <a href="/tags/%D0%BF%D0%BE%D0%B2%D1%81%D0%B5%D0%B4%D0%BD%D0%B5%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C/">повседневность</a></span>
+    </div>
+</li>    
+  
+            </ol>
+        </div>
+        <p class="area_rightMore"><a href="/manga/new">Еще&#8230;</a></p>
+    </div>
+
+</div>
+
+<div id="extra_main_news" style="float:left; width:682px;background-color:#FFF; border:1px solid #d6dee5;border-top:none;border-bottom-left-radius:5px;border-bottom-right-radius:5px;display:none;height:30px;">
+	<div style="float:right;margin-right:16px;margin-top:8px;background-color:#FFF;"><a href='/newestch' style="font-size:14px;">Показать больше</a></div>
+</div>
+
+
+
+	<script type="application/javascript">
+		$('#extra_main_news').hide();				
+		$('#side').ready(function() {
+				$('#content').height( $('#side').height() - 40 );
+				$('#extra_main_news').show();				
+				
+		});		
+	</script>
+
+
+
+
+
+<br style="clear:both" />
+
+
+
+<div style="float:left;background-color:#FFF;border-top-left-radius:5px;border-top-right-radius:5px;margin-bottom:-10px;padding-bottom:10px;border:1px solid #d6dee5;padding-top:10px;">
+
+
+
+
+
+
+<div id="footer" style="width:990px;background:#0096db;float:left;height:22px;	margin:0 auto 10px auto !important;">
+
+
+
+	<div id="footer_left"></div>
+    <div id="footer_right">
+<!--    	<a rel='nofollow' href="http://twitter.com/ru_mangachan" target="_blank" style="margin-right:5px;"><img src="/templates/mangachan/images/icon-twi.png" /></a> -->
+    </div>
+</div>
+
+<div id="bottom_ads">
+		
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="font-size:16px;">
+Манга-тян - онлайн манга на русском. Большой качественный каталог. У нас можно читать мангу онлайн бесплатно и без регистрации.
+</div>
+
+
+<div style='visibility:hidden;'>
+<!--LiveInternet counter--><script type="text/javascript">document.write("<a href='//www.liveinternet.ru/click' target=_blank><img src='//counter.yadro.ru/hit?t26.6;r" + escape(document.referrer) + ((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)) + ";u" + escape(document.URL) + ";" + Math.random() + "' border=0 width=88 height=15 alt='' title='LiveInternet: показано число посетителей за сегодня'><\/a>")</script><!--/LiveInternet-->
+</div>
+
+	</body>
+</html>
+<div style='font-size: 14px;'>9.0219974517822</div>
